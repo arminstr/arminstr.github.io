@@ -1,22 +1,28 @@
 <!-- Main Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header">
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
     <div class="container-fluid mx-sm-5 ">
       <div class="navbar-header navbar-left pull-left">
         <a class="navbar-brand" href="/{{page.lang}}/index.html">
-          <img src="/assets/img/favicon/logo_black.svg" width="42" height="42" class="d-inline-block align-top" alt="logo" loading="lazy">
+          <img src="/assets/img/favicon/logo_black.svg" height="32" class="d-inline-block align-top" alt="logo" loading="lazy">
         </a>
       </div>
       <div class="navbar-header navbar-right pull-right">
         {% assign pageLang = "/" | append: page.lang | append: "/" %}
         {% assign htmlEnding = ".html"  %}
-        {% assign rb1Key = "rb1.html"  %}
+        {% assign productKey = "product.html"  %}
         <ul class="nav navbar-nav navbar-right flex-row">
+          <!--
           <li class="nav-item">
-            <a class="nav-link {% unless page.url contains htmlEnding %}active{% endunless %}" href="/{{page.lang}}/index.html">{{site.data.translations['HomeTitle'][page.lang]}}</a>
+            <a class="nav-link {% unless page.url contains htmlEnding %}active{% endunless %}" href="/{{page.lang}}/projects.html">{{site.data.translations['ProjectsTitle'][page.lang]}}</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains productKey %}active{% endif %}" href="/{{page.lang}}/blog.html">{{site.data.translations['BlogTitle'][page.lang]}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.url contains rb1Key %}active{% endif %}" href="/{{page.lang}}/rb1.html">{{site.data.translations['RB1Title'][page.lang]}}</a>
+            <a class="nav-link {% if page.url contains productKey %}active{% endif %}" href="/{{page.lang}}/about.html">{{site.data.translations['AboutTitle'][page.lang]}}</a>
           </li>
+          -->
         </ul>
       </div>
     </div>

@@ -1,15 +1,15 @@
 ---
 layout: terms
-title: AIRbee - Impressum
+title: Open Recycling - Impressum
 
 lang: de
 ---
 
 # Impressum
 
-## AIRbee Gründungsprojekt
+## Open Recycling
 
-Vertretungsberechtigte Geschäftsführer: Maxim Kaufmann, Armin Straller
+Vertretungsberechtigter Geschäftsführer: Armin Straller
 
 [{{site.data.translations['ContactEmail'][page.lang]}}](mailto:{{site.data.translations['ContactEmail'][page.lang]}})
 

@@ -1,14 +1,14 @@
 ---
 layout: terms
-title: AIRbee - Datenschutz
+title: Open Recycling - Datenschutz
 
 lang: de
 ---
 
-# AIRbee Datenschutzerklärung
+# Open Recycling Datenschutzerklärung
 Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:
 
-AIRbee Augsburg GbR
+Open Recycling
 
 ## Ihre Betroffenenrechte
 Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten können Sie jederzeit folgende Rechte ausüben:
