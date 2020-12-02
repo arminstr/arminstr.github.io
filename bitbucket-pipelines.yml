@@ -1,0 +1,27 @@
+image: ruby:latest
+
+pipelines:
+  branches:
+    master:
+      - step:
+          name: Build jekyll
+          caches:
+            - bundler
+          script:
+            - bundle install --path vendor/bundle
+            - bundle exec jekyll build --destination public
+            - tar -czvf public/package-${BITBUCKET_BUILD_NUMBER}.tar.gz -C public .
+          artifacts:
+            - public/**
+      - step:
+        name: Deploy to Firebase
+        deployment: production
+        script:
+          - pipe: atlassian/firebase-deploy:0.2.1
+            variables:
+              FIREBASE_TOKEN: $FIREBASE_TOKEN
+              PROJECT_ID: $FIREBASE_PROJECT
+          
+definitions:
+  caches:
+    bundler: vendor/bundle

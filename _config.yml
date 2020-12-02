@@ -1,0 +1,9 @@
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+exclude: 
+  - bitbucket-pipelines.yml
+  - firebase.json
+
+url: https://airbee-website.web.app

@@ -1,0 +1,23 @@
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header">
+    <div class="container-fluid mx-sm-5 ">
+      <div class="navbar-header navbar-left pull-left">
+        <a class="navbar-brand" href="/{{page.lang}}/index.html">
+          <img src="/assets/img/favicon/logo_simple_black.svg" width="42" height="42" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+      </div>
+      <div class="navbar-header navbar-right pull-right">
+        {% assign pageLang = "/" | append: page.lang | append: "/" %}
+        {% assign htmlEnding = ".html"  %}
+        {% assign rb1Key = "rb1.html"  %}
+        <ul class="nav navbar-nav navbar-right flex-row">
+          <li class="nav-item">
+            <a class="nav-link {% unless page.url contains htmlEnding %}active{% endunless %}" href="/{{page.lang}}/index.html">{{site.data.translations['HomeTitle'][page.lang]}}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains rb1Key %}active{% endif %}" href="/{{page.lang}}/rb1.html">{{site.data.translations['RB1Title'][page.lang]}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>

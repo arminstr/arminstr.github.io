@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="{{page.lang}}">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    {% if page.show-prod-nav %}
+      <link rel="stylesheet" href="/assets/css/rb1.css">
+    {% endif %}
+
+    <!-- Title and Icon -->
+    <title>{{page.title}}</title>
+    <link rel="icon" href="/assets/img/favicon/logo_simple_black.svg" type="image/icon type">
+
+    {% feed_meta %}
+    {% seo %}
+    <meta property="og:type" content="{{page.type}}" />
+    <meta name="twitter:site" content="{{site.url}}{{ page.url | remove: 'index.html' }}" />
+    <meta name="twitter:card" content="{{page.twitterCard}}" />
+    <meta name="twitter:title" content="{{page.title}}" />
+    <meta name="twitter:image" content="{{site.url}}{{page.image}}" />
+    <meta name="twitter:description" content="{{page.description}}" />
+    <link rel="shortcut icon" type="image/ico" href="/assets/img/favicon/favicon.ico" />
+  </head>
+  <body>
+    <header>
+    {% include navigation.html %}
+    {% if page.show-prod-nav %}
+      {% include product-navigation.html %}
+    {% endif %}
+    </header>
+    {{ content }}
+    <form class="contact-form" id="contact__form" name="contact_form">
+        <div class="col-md-5 mx-auto my-5 p-5 rounded shadow">
+            <p class="font-weight-normal display-4">{{site.data.translations['ProductRequestInfo'][page.lang]}}</p>
+            <div class="form-group">
+                <label for="text__full__name" id="label_text__full__name" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+                <input type="text" name="text_full_name" class="form-control" id="text__full__name" placeholder="{{site.data.translations['FullNameLabel'][page.lang]}}">
+            </div>
+            <div class="form-group">
+                <label for="email__address" id="label_email__address" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+                <input type="email" name="email_address" class="form-control" id="email__address" placeholder="{{site.data.translations['EmailAddressLabel'][page.lang]}}">
+            </div>
+            <div class="form-group">
+                <label for="textarea__message" id="label_textarea__message" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+                <textarea name="textarea_message" class="form-control" id="textarea__message" rows="3" placeholder="{{site.data.translations['MessageLabel'][page.lang]}}"></textarea>
+            </div>
+            <div class="form-group form-check">
+                <input type="checkbox" class="form-check-input" id="checkbox__consent">
+                <label class="form-check-label" for="checkbox__consent">{{site.data.translations['PrivacyCheckboxText'][page.lang]}}</label>
+                <a href="/{{ page.lang }}/data-privacy.html">{{site.data.translations['FormPrivacyPolicyLinkText'][page.lang]}}</a>
+            </div>
+            <div class="form-group text-center">
+                <label class="form-check-label" id="label_submit__button" for="submit__button" hidden><small class="text-danger">{{site.data.translations['DataSubmissionError'][page.lang]}}</small></label>
+            </div>
+            <div class="form-group text-center">
+                <button class="btn btn-primary button-submit" id="submit__button" disabled >{{site.data.translations['FormSubmitButtonText'][page.lang]}}</button>
+            </div>
+            <div class="form-group text-center">
+                <small class="d-block mb-3 text-muted">{{site.data.translations['FormSmallText'][page.lang]}}</small>
+            </div>
+            
+
+        </div>
+
+    </form>
+
+
+    {% include footer.html %}
+    <!-- Last elemnt has to be cooki-banner -->
+    {% include cookie-banner.html %}
+    
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    {% include analytics.html %}
+    <script src="/assets/js/analytics-script.js"></script>
+
+    <!-- Add Firebase products that you want to use -->
+    <script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+
+    <script src="/assets/js/contact-app.js"></script>
+    </body>
+</html>

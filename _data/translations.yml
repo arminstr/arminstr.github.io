@@ -1,0 +1,187 @@
+LanguageSettings:
+  en: "Language"
+  de: "Sprache"
+AIRbeeFooterTitle:
+  en: "Home"
+  de: "Home"
+HomeTitle:
+  en: "AIRbee"
+  de: "AIRbee"
+RB1Title:
+  en: "RB1"
+  de: "RB1"
+RB1Heading:
+  en: "RB1-Prototype"
+  de: "RB1-Prototype"
+PressTitle:
+  en: "Press & Images"
+  de: "Presse & Bilder"
+ProductOverview:
+  en: "Overview"
+  de: "Überblick"
+ProductTechDetails:
+  en: "Tech Specs"
+  de: "Technische Daten"
+ProductRequestInfo:
+  en: "Request Info"
+  de: "Infos Anfordern"
+HeadLine:
+  en: "The first fully autonomous weeding robot. Making farming more cost efficient. And better for the environment."
+  de: "Der erste vollautonome Roboter zur Unkrautbekämfung. Landwirtschaft wird dadurch kosteneffizienter. Und besser für die Umwelt."
+RobotTitle:
+  en: "Robot"
+  de: "Roboter"
+RobotText:
+  en: "Built for precision spot spraying."
+  de: "Entwickelt und Gebaut für Präzisionslandwirtschaft. Durch einen vollelektrischen Antrieb und diverse Sensoren bewegt sich RB1 mühelos über jedes Feld."
+WeedTitle:
+  en: "Weed Detection AI"
+  de: "Weed Detection AI"
+WeedText:
+  en: "Computer Vision. Powerfull and embedded into the device. No need for cloud connectivity."
+  de: "Computer Vision. Leistungsstark und Teil des Geräts. Dafür ist keine Verbindung in die Cloud notwendig."
+LineTitle:
+  en: "Crop Row Detection"
+  de: "Linienerkennung der Kultur"
+LineText:
+  en: "Automatically detects Crops. This way Navigation is possible even offline and without extensive mapping."
+  de: "Automatische Erkennung der Kulturpflanze. Die Navigation kann somit offline und ohne Kartografierung stattfinden."
+
+SpotSprayingTitle:
+  en: "Spot Spraying"
+  de: "Spot Spraying"
+SpotSprayingText:
+  en: "Saving up to <b>80%</b> of herbicide whilst application."
+  de: "Bei der Ausbringung von Herbiziden werden bis zu <b>80%</b> eingespart."
+
+Registered:
+  en: "AIRbee - trademark registration pending by project AIRbee, Germany"
+  de: "AIRbee - angemeldete Marke des Gründungsprojekts AIRbee Augsburg, Deutschland"
+
+AboutTitle:
+  en: "About"
+  de: "Über Uns"
+
+TeamTitle:
+  en: "Team"
+  de: "Team"
+
+SocialsTitle:
+  en: "Socials"
+  de: "Social"
+
+LocationTitle:
+  en: "Location"
+  de: "Standort"
+
+PrivayTitle:
+  en: "Privacy Policy"
+  de: "Datenschutzerklärung"
+
+ImprintTitle:
+  en: "Imprint"
+  de: "Impressum"
+
+IndexHeading:
+  en: "Precision Farming Robots"
+  de: "Robotik für den Ackerbau"
+
+IndexHeadingText:
+  en: "AIRbee provides autonomous and profitable solutions for the agricultural application of robotics. By using corn-farming data and artificial intelligence herbizice can be saved. Farmers can benifit due to the increased automation. This enables ecological benefits as well economic advantage on the global agricultural market."
+  de: "AIRbee bietet autonome und profitable Lösungen für den Einsatz von Robotik in der Landwirtschaft. Mit Hilfe von Daten aus dem Maisbau und künstlicher Intelligenz wird eine Einsparung von Pflanzenschutzmitteln ermöglicht. Landwirte mit hauptgewerblich genutzten Maisanbauflächen profitieren von dem gesteigerten Automatisierungsgrad. Dieser ermöglicht Ihnen ökologische Vorteile und Konkurrenzfähigkeit gegenüber dem globalen Agrarmarkt."
+
+IndexHeadingButton:
+  en: "Learn more"
+  de: "Weitere Infos"
+
+#Request Info Page Content
+FullNameLabel:
+  en: "Full Name"
+  de: "Name"
+FullNameExample:
+  en: "John Doe"
+  de: "Max Mustermann"
+EmailAddressLabel:
+  en: "Email"
+  de: "Email"
+EmailAddressExample:
+  en: "name@example.com"
+  de: "name@beispiel.de"
+MessageLabel:
+  en: "Your Message"
+  de: "Ihre Nachricht"
+MessageExample:
+  en: "Your Request..."
+  de: "Ihr Anliegen ..."
+PrivacyCheckboxText:
+  en: "By clicking this checkbox, you agree to AIRbee contacting you with the given contact information. For this reason your personal data will be processed according to our privacy policy."
+  de: "Hiermit willige ich ein, dass AIRbee mit mir Kontakt aufnimmt und zu diesem Zweck meine personenbezogenen Daten gemäß der Datenschutzerklärung verarbeitet."
+FormPrivacyPolicyLinkText:
+  en: "More Info."
+  de: "Weitere Informationen."
+FormSubmitButtonText:
+  en: "Send Request"
+  de: "Absenden"
+FormRequiredLabelText:
+  en: "Required information."
+  de: "Notwendige Information."
+FormSmallText:
+  en: "Feel free to contact our service team in english or german."
+  de: "Kontaktanfragen können in deutsch oder englisch bearbeitet werden."
+
+FormSuccessTitle:
+  en: "Thank you!"
+  de: "Vielen Dank!"
+FormSuccessText:
+  en: "Your request is beeing processed by our service team. It usually takes them no longer then 20 hours to respond to your message."
+  de: "Ihre Anfrage wird von unserem Serviceteam bearbeitet. Die durchschnittliche Antwortzeit beträgt 20 Stunden."
+
+DataSubmissionError:
+  en: "Error Receiving your request. Please try again later."
+  de: "Beim verarbeiten Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+
+PressReleasesTitle:
+  en: "Press releases"
+  de: "Presse"
+PressReleasesInfoText:
+  en: "Our press releases are available as Google Docs documents. You can access them using the button below."
+  de: "Unsere Pressemeldungen werden als Google Docs Dokument bereitgestellt."
+PressReleasesButtonText:
+  en: "Open Press Releases"
+  de: "Zu den Meldungen"
+
+ImageReleasesTitle:
+  en: "Images and Graphics"
+  de: "Fotos und Grafiken"
+ImageReleasesInfoText:
+  en: "Our official images are simply stored in a Google Drive folder. You can access them using the button below. Please follow the License supplied with the images."
+  de: "Unsere offizielen Grafiken werden in einem Google Drive Ordner bereitgestellt. Bitte beachten Sie auch die beigefügte Lizenz."
+ImageReleasesButtonText:
+  en: "Open Image Storage"
+  de: "Zu den Bildern"
+
+CookieBannerTitle:
+  en: "We respect your privacy."
+  de: "Wir respektieren Ihre Privatsphäre."
+CookieBannerAccept:
+  en: "Accept all"
+  de: "Alle akzeptieren"
+CookieBannerDecline:
+  en: "Technically necessary cookies only"
+  de: "Nur technisch notwendige Cookies"
+CookieBannerText:
+  en: "This is why we do only use Cookies and Trackers that improve your experience on our website."
+  de: "Deshalb verwenden wir ausschließlich Cookies und Tracker, die Ihr Website-Erlebnis verbessern."
+
+
+FooterContactTitle:
+  en: "Stay up-to-date!"
+  de: "Auf dem neuesten Stand bleiben!"
+
+FooterContactInfo:
+  en: "Sign up to receive our newsletter."
+  de: "Anmelden um unseren Newsletter zu erhalten."
+
+ContactEmail:
+  en: "contact@airbee.de"
+  de: "contact@airbee.de"

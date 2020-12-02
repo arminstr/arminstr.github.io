@@ -1,0 +1,42 @@
+<link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+<footer class="container-sm mx-sm-5 my-5">
+    <div class="row ml-sm-3">
+      <div class="col-sm">
+        <a href="/{{page.lang}}/index.html">
+          <img src="/assets/img/favicon/logo_simple_black.svg" width="32" height="32" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+        <small class="text-muted mx-1"><p id="copyright__year">2020</p></small>
+        <ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/{{page.lang}}/contact.html"><h5>{{site.data.translations['ProductRequestInfo'][page.lang]}}</h5></a></li>
+          <li><a class="text-dark" href="/{{page.lang}}/press.html"><h5>{{site.data.translations['PressTitle'][page.lang]}}</h5></a></li>
+          <li><a class="text-muted" href="/{{page.lang}}/data-privacy.html">{{site.data.translations['PrivayTitle'][page.lang]}}</a></li>
+          <li><a class="text-muted" href="/{{page.lang}}/imprint.html">{{site.data.translations['ImprintTitle'][page.lang]}}</a></li>
+        </ul>
+      </div>
+      <div class="col-sm-5">
+          <div class="btn-group mr-2" role="group" aria-label="Follow">
+            <button type="button" class="btn footer-button"><a href="https://www.linkedin.com/company/airbee-gmbh/" target="_blank" style="color:black;"><i class="fa fa-linkedin"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://www.instagram.com/airbee.robotics/" target="_blank" style="color:black;"><i class="fa fa-instagram"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://www.youtube.com/" target="_blank" style="color:black;"><i class="fa fa-youtube-play"></i></a></button>
+          </div>
+      </div>
+      <div class="col-sm my-3">
+        <!--h5>{{site.data.translations['LanguageSettings'][page.lang]}}</h5-->
+        {% assign convName = page.url | remove: page.dir %}
+        <ul class="list-unstyled text-small">
+          {% for item in site.data.language-menu %}
+              {% assign langLink = item.link | append: "/" | append: convName %}
+              <li><a class="text-dark" href="{{ langLink }}">{{ item.name }}</a></li>
+              {% assign langLink = ""%}
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    <small class="d-block my-3 mx-sm-4 text-muted">{{site.data.translations['Registered'][page.lang]}}</small>
+</footer>
+
+<script>
+  var d = new Date().getFullYear();
+  document.getElementById("copyright__year").innerHTML = '© ' + d.toString();
+</script>

@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="{{page.lang}}">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    {% if page.show-prod-nav %}
+      <link rel="stylesheet" href="/assets/css/rb1.css">
+    {% endif %}
+
+    <!-- Title and Icon -->
+    <title>{{page.title}}</title>
+    <link rel="icon" href="/assets/img/favicon/logo_simple_black.svg" type="image/icon type">
+
+    {% feed_meta %}
+    {% seo %}
+    <meta property="og:type" content="{{page.type}}" />
+    <meta name="twitter:site" content="{{site.url}}{{ page.url | remove: 'index.html' }}" />
+    <meta name="twitter:card" content="{{page.twitterCard}}" />
+    <meta name="twitter:title" content="{{page.title}}" />
+    <meta name="twitter:image" content="{{site.url}}{{page.image}}" />
+    <meta name="twitter:description" content="{{page.description}}" />
+    <link rel="shortcut icon" type="image/ico" href="/assets/img/favicon/favicon.ico" />
+  </head>
+  <body>
+    <header>
+    {% include navigation.html %}
+    {% if page.show-prod-nav %}
+      {% include product-navigation.html %}
+    {% endif %}
+    </header>
+    
+
+    <div class="intro row featurette p-sm-3 p-md-3 m-1 bg-light">
+      <div class="col-md-4 order-md-2 mx-sm-5 my-5">
+        <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="300" height="300" src="/assets/img/content/Robot@4x.png" alt="Static Robot Illustration"></img>
+      </div>
+      <div class="col-md-5 order-md-1 mx-sm-5 my-5 ">
+        <h1 class="display-4 featurette-heading">{{site.data.translations['RB1Heading'][page.lang]}}</h1>
+        <p class="lead ">{{site.data.translations['HeadLine'][page.lang]}}</p>
+        <a class="btn btn-outline-primary" href="/{{page.lang}}/contact.html">{{site.data.translations['ProductRequestInfo'][page.lang]}}</a>
+      </div>
+    </div>
+
+    <div class="container-sm marketing my-5 mx-sm-5">    
+      <!-- START THE FEATURETTES -->
+      <div class="row featurette mt-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">{{site.data.translations['RobotTitle'][page.lang]}}</h2>
+          <p class="lead">{{site.data.translations['RobotText'][page.lang]}}</p>          
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="/assets/img/content/basic_vehicle_graphics.gif" alt="Spraying Robot Illustration"></img>
+        </div>
+      </div>
+
+      <div class="row featurette mt-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{site.data.translations['WeedTitle'][page.lang]}}</h2>
+          <p class="lead">{{site.data.translations['WeedText'][page.lang]}}</p>          
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" src="/assets/img/content/weed_detection.gif" alt="Weed Detection Animation"></img>
+        </div>
+      </div>
+
+      <div class="row featurette mt-5">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading">{{site.data.translations['LineTitle'][page.lang]}}</h2>
+          <p class="lead">{{site.data.translations['LineText'][page.lang]}}</p>          
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" src="/assets/img/content/crop-row.gif" alt="Crop Row Detection Animation"></img>
+        </div>
+      </div>
+
+      <!--hr class="featurette-divider"-->
+  
+      <div class="row featurette mt-5">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">{{site.data.translations['SpotSprayingTitle'][page.lang]}}</h2>
+          <p class="lead">{{site.data.translations['SpotSprayingText'][page.lang]}}</p>         
+        </div>
+      </div>
+  
+      <!-- /END THE FEATURETTES -->
+    </div>
+    {{ content }}
+    {% include footer.html %}
+
+    <!-- Last elemnt has to be cookie-banner -->
+    {% include cookie-banner.html %}
+      
+    <!-- Optional JavaScript -->
+    <script src="../assets/js/rb1-app.js"></script>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    {% include analytics.html %}
+    <script src="/assets/js/analytics-script.js"></script>
+    </body>
+</html>

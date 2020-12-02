@@ -1,0 +1,141 @@
+.button-get-info {
+    border-radius: 14px;
+    line-height: 1;
+    padding-top: 6px;
+    padding-bottom: 0px;
+    /*font-family: 'Nunito', sans-serif;*/
+    height:28px;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus
+{
+    box-shadow: none;
+    border:none;
+    outline:none;
+    width: 32;
+    height: 32;
+    visibility: hidden;
+}
+
+.menu-expand__arrow {
+    width: 16px;
+    height: 2px;
+    background: transparent;
+    /*animation: flipButton1 0.1s ease-in;*/
+}
+
+.menu-expand__arrow::before
+ {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background: black;
+    transition: transform 0.1s ease-in;
+}
+
+.menu-expand__arrow::after
+ {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 2px;
+    background: black;
+    transition: transform 0.1s ease-in;
+}
+
+.navbar-toggler.open .menu-expand__arrow::before {
+    animation: flipButton3 0.1s ease-in;
+    transform: translateX(5px) rotate(45deg);
+}
+
+.navbar-toggler.open .menu-expand__arrow::after {
+    animation: flipButton1 0.1s ease-in;
+    transform: translateX(-5px) rotate(-45deg);
+}
+
+.menu-expand__arrow::before {
+    animation: flipButton2 0.1s ease-in;
+    transform: translateX(5px) rotate(-45deg);
+}
+
+.menu-expand__arrow::after {
+    animation: flipButton4 0.1s ease-in;
+    transform: translateX(-5px) rotate(45deg);
+}
+
+@keyframes flipButton1 {
+    0% {
+        transform: translateX(-5px)rotate(45deg);
+        width: 16px;
+    }
+    50% {
+        transform: translateX(-7px)rotate(0deg);
+        width: 14px;
+    }
+    100%{
+        transform: translateX(-5px)rotate(-45deg);
+        width: 16px;
+    }
+}
+
+@keyframes flipButton2 {
+    0% {
+        transform: translateX(-5px)rotate(-45deg);
+        width: 16px;
+    }
+    50% {
+        transform: translateX(-7px)rotate(0deg);
+        width: 14px;
+    }
+    100%{
+        transform: translateX(-5px)rotate(45deg);
+        width: 16px;
+    }
+}
+
+@keyframes flipButton3 {
+    0% {
+        transform: translateX(5px)rotate(-45deg);
+        width: 16px;
+    }
+    50% {
+        transform: translateX(7px)rotate(0deg);
+        width: 14px;
+    }
+    100%{
+        transform: translateX(5px)rotate(45deg);
+        width: 16px;
+    }
+}
+
+@keyframes flipButton4 {
+    0% {
+        transform: translateX(5px)rotate(45deg);
+        width: 16px;
+    }
+    50% {
+        transform: translateX(7px)rotate(0deg);
+        width: 14px;
+    }
+    100%{
+        transform: translateX(5px)rotate(-45deg);
+        width: 16px;
+    }
+}
+
+.spot-spraying {
+    min-width: 30vw;
+    padding: 32px;
+}
+
+.weed-detector {
+    min-width: 30vw;
+    padding: 32px;
+}
+
+.robot-animation {
+    min-width: 30vw;
+    padding: 32px;
+}
