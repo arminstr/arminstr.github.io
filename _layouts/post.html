@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="/assets/css/global.css">
+    <link rel="stylesheet" href="/assets/css/post.css">
     {% if page.show-prod-nav %}
 
     {% endif %}
@@ -30,19 +31,30 @@
   <body>
     <header>
     {% include navigation.html %}
-    {% if page.show-prod-nav %}
-      {% include product-navigation.html %}
-    {% endif %}
     </header>
-    <div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-left">
-      <div class="col-10 float-lg-left my-5 mx-sm-5">
-        <h1 class="display-4 font-weight-normal display-2">{{site.data.translations['IndexHeading'][page.lang]}}</h1>
-        <p class="lead font-weight-normal lead">{{site.data.translations['IndexHeadingText'][page.lang]}}</p>
-        <!--a class="btn btn-outline-primary mt-sm-5" href="/{{page.lang}}/rb1.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a-->
-      </div>
+
+    <div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-center">
+        <div class="col-10 my-5 mx-sm-5">
+            {% if page.related_image %}
+                <img src="{{ page.related_image }}" class="img-fluid" alt="Responsive image">
+            {% endif %}
+
+        </div>
     </div>
 
-    {{ content }}
+    <main role="main" class="container">
+        <div class="col-10 mx-sm-5 blog-main my-5">
+            <div class="blog-post">
+                
+                <h1 class="blog-post-title">{{ page.title }}</h1>
+                <small class="blog-post-meta text-muted my-1">{{ page.date | date: '%B %d, %Y' }} - {{ page.time-read }}</small>
+                <hr>
+                {{ content }} 
+            </div>
+            
+        </div>
+    </main>
+    
     {% include footer.html %}
     <!-- Last elemnt has to be cooki-banner -->
     {% include cookie-banner.html %}

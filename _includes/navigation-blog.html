@@ -1,0 +1,25 @@
+<!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-1">
+    <div class="container-fluid mx-sm-5 ">
+      <div class="navbar-header navbar-left pull-left">
+        {% assign pageLang = "/" | append: page.lang | append: "/" %}
+        {% assign htmlEnding = ".html"  %}
+        {% assign blogKey = "/blog/"  %}
+        {% assign aboutKey = "about.html"  %}
+        <ul class="nav navbar-nav navbar-left flex-row">
+          <li class="nav-item-blog">
+            <a class="nav-link nav-link-blog {% if page.category-filter == 'all' %}active{% endif %}" href="/en/blog/all.html">{{site.data.translations['BlogAll'][page.lang]}}</a>
+          </li>
+          <li class="nav-item-blog">
+            <a class="nav-link nav-link-blog {% if page.category-filter == 'Research' %}active{% endif %}" href="/en/blog/research.html">{{site.data.translations['BlogResearch'][page.lang]}}</a>
+          </li>
+          <li class="nav-item-blog">
+            <a class="nav-link nav-link-blog {% if page.category-filter == 'Announcements' %}active{% endif %}" href="/en/blog/announcements.html">{{site.data.translations['BlogAnnouncements'][page.lang]}}</a>
+          </li>
+          <li class="nav-item-blog">
+            <a class="nav-link nav-link-blog {% if page.category-filter == 'Events' %}active{% endif %}" href="/en/blog/events.html">{{site.data.translations['BlogEvents'][page.lang]}}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>

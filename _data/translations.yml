@@ -79,3 +79,19 @@ CookieBannerText:
 ContactEmail:
   en: "contact@openrecycling.com"
   de: "contact@openrecycling.com"
+
+BlogAll:
+  en: "All"
+  de: "Alles"
+
+BlogResearch:
+  en: "Research"
+  de: "Forschung"
+
+BlogAnnouncements:
+  en: "Announcements"
+  de: "Ankündigungen"
+
+BlogEvents:
+  en: "Events"
+  de: "Events"

@@ -9,20 +9,15 @@
       <div class="navbar-header navbar-right pull-right">
         {% assign pageLang = "/" | append: page.lang | append: "/" %}
         {% assign htmlEnding = ".html"  %}
-        {% assign productKey = "product.html"  %}
+        {% assign blogKey = "/blog/"  %}
+        {% assign aboutKey = "about.html"  %}
         <ul class="nav navbar-nav navbar-right flex-row">
-          <!--
           <li class="nav-item">
-            <a class="nav-link {% unless page.url contains htmlEnding %}active{% endunless %}" href="/{{page.lang}}/projects.html">{{site.data.translations['ProjectsTitle'][page.lang]}}</a>
-          </li>
-          
-          <li class="nav-item">
-            <a class="nav-link {% if page.url contains productKey %}active{% endif %}" href="/{{page.lang}}/blog.html">{{site.data.translations['BlogTitle'][page.lang]}}</a>
+            <a class="nav-link {% if page.url contains blogKey %}active{% endif %}" href="/en/blog/all.html">{{site.data.translations['BlogTitle'][page.lang]}}</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link {% if page.url contains productKey %}active{% endif %}" href="/{{page.lang}}/about.html">{{site.data.translations['AboutTitle'][page.lang]}}</a>
+            <a class="nav-link {% if page.url contains aboutKey %}active{% endif %}" href="/{{page.lang}}/about.html">{{site.data.translations['AboutTitle'][page.lang]}}</a>
           </li>
-          -->
         </ul>
       </div>
     </div>

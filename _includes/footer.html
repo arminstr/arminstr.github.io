@@ -25,9 +25,13 @@
         <!--h5>{{site.data.translations['LanguageSettings'][page.lang]}}</h5-->
         {% assign convName = page.url | remove: page.dir %}
         <ul class="list-unstyled text-small">
+          {% assign blogKey = "/blog/"  %}
           {% for item in site.data.language-menu %}
               {% assign langLink = item.link | append: "/" | append: convName %}
-              <li><a class="text-dark" href="{{ langLink }}">{{ item.name }}</a></li>
+              {% if page.url contains blogKey %}
+                {% assign langLink = "/en/blog" | append: "/" | append: convName %}
+              {% endif %}
+              <li><a class="text-dark"  href="{{ langLink }}">{{ item.name }}</a></li>
               {% assign langLink = ""%}
           {% endfor %}
         </ul>

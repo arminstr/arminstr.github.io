@@ -19,6 +19,7 @@ h2{
 p, a{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
+    color: black;
 }
 
 b {
@@ -36,7 +37,7 @@ b {
     width: 100vw;
 }
 
-.navbar-brand, .nav-link {font-family: 'Nunito', sans-serif;font-weight: 800;}
+.navbar-brand, .nav-link {font-family: 'Nunito', sans-serif;font-weight: 400;font-size: 16px;}
 .dropdown-item {font-family: 'Nunito', sans-serif;font-weight: 400;}
 
 .navbar-menu-header {
@@ -71,3 +72,14 @@ b {
     outline: none !important;
     box-shadow: none;
  }
+
+.nav-link-blog {
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.img-thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
