@@ -7,34 +7,33 @@
                         {% assign selectedPosts = c.last | where:"lang", page.lang %}
                         {% assign size =  selectedPosts.size %}
                         {% if size > 0 %}
-                            
-                            <ul class="list-group list-group-flush">
-                                {% if size == 1 %}
-                                    <li class="list-group-item"><p class="text-muted">1 post</p></li>
-                                {% else %}
-                                <li class="list-group-item"><p class="text-muted">{{size}} posts</p></li>
-                                {% endif %}
-                                {% for post in selectedPosts %}
-                                
-                                <li class="list-group-item">
-                                    <div class="container">
-                                        <div class="row">
-                                          <div class="col-sm">
-                                            <p class="text-nowrap text-muted">{{ post.date | date: '%B %d, %Y' }}</p> 
-                                          </div>
-                                          <div class="col-sm-6">
-                                            <a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
-                                          </div>
-                                          <div class="col-sm">
-                                            <img src="{{ post.related_image }}" alt="" class="img-thumbnail rounded">
-                                          </div>
+                        <ul class="list-group list-group-flush">
+                            {% if size == 1 %}
+                                <li class="list-group-item"><p class="text-muted">1 post</p></li>
+                            {% else %}
+                            <li class="list-group-item"><p class="text-muted">{{size}} posts</p></li>
+                            {% endif %}
+
+                            {% for post in selectedPosts %}
+                            <li class="list-group-item">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-sm">
+                                        <p class="text-nowrap text-muted">{{ post.date | date: '%B %d, %Y' }}</p> 
                                         </div>
-                                      </div>
-                                    
-                                </li>
-                                {% endfor %}
+                                        <div class="col-sm-6">
+                                        <a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
+                                        </div>
+                                        <div class="col-sm">
+                                        <img src="{{ post.related_image }}" alt="" class="img-thumbnail rounded">
+                                        </div>
+                                    </div>
+                                    </div>
                                 
-                            </ul>
+                            </li>
+                            {% endfor %}
+                            
+                        </ul>
                         {% endif %}
                     {% endif %}
                 {% endif %}
