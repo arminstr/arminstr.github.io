@@ -2,18 +2,18 @@
 <div class="modal cookie-container fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
-        <div class="modal-header no-border">
-          <h5 class="modal-title" id="staticBackdropLabel">{{site.data.translations['CookieBannerTitle'][page.lang]}}</h5>
-          <button type="button" class="close cookie-conainer-close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
+          <div class="modal-header no-border mx-3">
+            <h5 class="modal-title" id="staticBackdropLabel">{{site.data.translations['CookieBannerTitle'][page.lang]}}</h5>
+            <button type="button" class="close cookie-conainer-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
             <small>{{site.data.translations['CookieBannerText'][page.lang]}} <a href="/{{page.lang}}/data-privacy.html">{{site.data.translations['FormPrivacyPolicyLinkText'][page.lang]}}</a></small>
-        </div>
-        <div class="modal-footer no-border d-flex justify-content-between">
-          <button type="button" class="btn cookie-button-decline " data-dismiss="modal">{{site.data.translations['CookieBannerDecline'][page.lang]}}</button>
-          <button type="button" class="btn cookie-button-accept btn-primary button-submit">{{site.data.translations['CookieBannerAccept'][page.lang]}}</button>
+          </div>
+          <div class="modal-footer no-border d-flex justify-content-between">
+            <button type="button" class="btn cookie-button-decline text-left" data-dismiss="modal">{{site.data.translations['CookieBannerDecline'][page.lang]}}</button>
+            <button type="button" class="btn cookie-button-accept btn-primary mx-3">{{site.data.translations['CookieBannerAccept'][page.lang]}}</button>
           </div>
         </div>
     </div>
