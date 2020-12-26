@@ -4,3 +4,5 @@ plugins:
 
 
 url: https://openrecycling.com
+
+future: false
