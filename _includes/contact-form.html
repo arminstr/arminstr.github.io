@@ -1,0 +1,37 @@
+<form class="contact-form" id="contact__form" name="contact_form" action="https://docs.google.com/forms/d/e/1AFIpQLSdqYGth5-G2cP8SILJwjOcJ38vit-Rv8E9SXmtnJUu4ifMcGw/formResponse">
+    <div class="col-md-5 mx-auto my-5 p-5 rounded shadow">
+        <p class="font-weight-normal display-4">{{site.data.translations['ProductRequestInfo'][page.lang]}}</p>
+        <div class="form-group">
+            <label for="text__full__name" id="label_text__full__name" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+            <input type="text" name="text_full_name" jsname="YPqjbf" autocomplete="name" class="form-control" id="text__full__name" placeholder="{{site.data.translations['FullNameLabel'][page.lang]}}">
+        </div>
+        <div class="form-group">
+            <label for="email__address" id="label_email__address" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+            <input type="email" name="email_address" jsname="YPqjbf" autocomplete="email" class="form-control" id="email__address" placeholder="{{site.data.translations['EmailAddressLabel'][page.lang]}}">
+        </div>
+        <div class="form-group">
+            <label for="textarea__message" id="label_textarea__message" hidden><small class="text-warning">{{site.data.translations['FormRequiredLabelText'][page.lang]}}</small></label>
+            <textarea name="textarea_message" class="form-control" id="textarea__message" rows="3" placeholder="{{site.data.translations['MessageLabel'][page.lang]}}"></textarea>
+        </div>
+        <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="checkbox__consent">
+            <label class="form-check-label" for="checkbox__consent">{{site.data.translations['PrivacyCheckboxText'][page.lang]}}</label>
+            <a href="/{{ page.lang }}/data-privacy.html">{{site.data.translations['FormPrivacyPolicyLinkText'][page.lang]}}</a>
+        </div>
+        <div class="form-group text-center">
+            <label class="form-check-label" id="label_submit__button" for="submit__button" hidden><small class="text-danger">{{site.data.translations['DataSubmissionError'][page.lang]}}</small></label>
+        </div>
+        <div class="form-group text-center">
+            <button class="btn btn-primary button-submit" id="submit__button" disabled >{{site.data.translations['FormSubmitButtonText'][page.lang]}}</button>
+        </div>
+        <div class="form-group text-center">
+            <small class="d-block mb-3 text-muted">{{site.data.translations['FormSmallText'][page.lang]}}</small>
+        </div>
+        
+
+    </div>
+
+</form>
+
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdOtAoZ4-DkGxSJgxkQHqCpRdp6BAOEZkOmoB3r99RR74ausQ/viewform?embedded=true" width="640" height="855" frameborder="0" marginheight="0" marginwidth="0">Wird geladen…</iframe>

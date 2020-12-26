@@ -16,8 +16,8 @@ At the moment we are focused on developing and testing an automated sorting and 
  
 ## Background
  
-Waste management and recycling have always been a challenging task. Within the past 50 years, popular belief about plastic recycling changed from it being a moral compensation for consumers to a necessary step to stop the destruction of many ecosystems. 
-With the advance of technological capabilities, first world countries start recycling plastics in an industrial and fully automated manner. These capabilities are often not given to poorer countries and communities. Additionally, the export of plastic waste to poor countries is still a business concept, which enables rich countries to increase their plastic consumption without having to deal with the consequences.
+Waste management and recycling have always been a challenging task. Within the past 50 years, popular belief about plastic recycling changed from it being a moral compensation for consumers to a necessary step to stop the destruction of many ecosystems. <br/><br/>
+With the advance of technological capabilities, first world countries started recycling plastics in an industrial and fully automated manner. These capabilities are often not given to poorer countries and communities. Additionally, the export of plastic waste to poor countries is still a business concept, which enables rich countries to increase their plastic consumption without having to deal with the consequences.
 Seeing initiatives like precious plastic changing the mentality of consumers and designers within the past few years is great. Plastic is a precious resource that has improved many areas of human life. But handling its residue properly is a problem humanity struggled with in the past.
  
 ---

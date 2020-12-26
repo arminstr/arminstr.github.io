@@ -95,3 +95,51 @@ BlogAnnouncements:
 BlogEvents:
   en: "Events"
   de: "Events"
+
+
+
+#Request Info Page Content
+FullNameLabel:
+  en: "Full Name"
+  de: "Name"
+FullNameExample:
+  en: "John Doe"
+  de: "Max Mustermann"
+EmailAddressLabel:
+  en: "Email"
+  de: "Email"
+EmailAddressExample:
+  en: "name@example.com"
+  de: "name@beispiel.de"
+MessageLabel:
+  en: "Your Message"
+  de: "Ihre Nachricht"
+MessageExample:
+  en: "Your Request..."
+  de: "Ihr Anliegen ..."
+PrivacyCheckboxText:
+  en: "By clicking this checkbox, you agree to AIRbee contacting you with the given contact information. For this reason your personal data will be processed according to our privacy policy."
+  de: "Hiermit willige ich ein, dass AIRbee mit mir Kontakt aufnimmt und zu diesem Zweck meine personenbezogenen Daten gemäß der Datenschutzerklärung verarbeitet."
+FormPrivacyPolicyLinkText:
+  en: "More Info."
+  de: "Weitere Informationen."
+FormSubmitButtonText:
+  en: "Send Request"
+  de: "Absenden"
+FormRequiredLabelText:
+  en: "Required information."
+  de: "Notwendige Information."
+FormSmallText:
+  en: "Feel free to contact our service team in english or german."
+  de: "Kontaktanfragen können in deutsch oder englisch bearbeitet werden."
+
+FormSuccessTitle:
+  en: "Thank you!"
+  de: "Vielen Dank!"
+FormSuccessText:
+  en: "Your request is beeing processed by our service team. It usually takes them no longer then 20 hours to respond to your message."
+  de: "Ihre Anfrage wird von unserem Serviceteam bearbeitet. Die durchschnittliche Antwortzeit beträgt 20 Stunden."
+
+DataSubmissionError:
+  en: "Error Receiving your request. Please try again later."
+  de: "Beim verarbeiten Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
