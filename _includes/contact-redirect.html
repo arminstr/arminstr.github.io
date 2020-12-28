@@ -1,0 +1,11 @@
+<div class="col-md-5 mx-auto my-5 height-50 p-5 rounded shadow">
+    <p class="font-weight-normal display-4">{{site.data.translations['FormSuccessTitle'][page.lang]}}</p>
+    <p class="font-weight-normal ">{{site.data.translations['FormSuccessText'][page.lang]}}</p>
+</div>
+
+<script>
+    setTimeout(()=>{
+      //redirect to homepage after submission
+      window.open('./index.html', "_self");
+    },5000);
+  </script>

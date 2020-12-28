@@ -118,13 +118,13 @@ MessageExample:
   en: "Your Request..."
   de: "Ihr Anliegen ..."
 PrivacyCheckboxText:
-  en: "By clicking this checkbox, you agree to AIRbee contacting you with the given contact information. For this reason your personal data will be processed according to our privacy policy."
-  de: "Hiermit willige ich ein, dass AIRbee mit mir Kontakt aufnimmt und zu diesem Zweck meine personenbezogenen Daten gemäß der Datenschutzerklärung verarbeitet."
+  en: "By clicking this checkbox, you agree to Open Recycling contacting you with the given contact information. For this reason your personal data will be processed according to our privacy policy."
+  de: "Hiermit willige ich ein, dass Open Recycling mit mir Kontakt aufnimmt und zu diesem Zweck meine personenbezogenen Daten gemäß der Datenschutzerklärung verarbeitet."
 FormPrivacyPolicyLinkText:
   en: "More Info."
   de: "Weitere Informationen."
 FormSubmitButtonText:
-  en: "Send Request"
+  en: "Send"
   de: "Absenden"
 FormRequiredLabelText:
   en: "Required information."
