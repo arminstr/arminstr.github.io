@@ -10,9 +10,11 @@ twitterCard: summary
 ---
 
 <div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-left">
-    <div class="col-10 float-lg-left my-5 mx-sm-5">
-      <h1 class="display-4 font-weight-normal display-2">{{site.data.translations['IndexHeading'][page.lang]}}</h1>
-      <p class="lead font-weight-normal lead">{{site.data.translations['IndexHeadingText'][page.lang]}}</p>
-      <!--a class="btn btn-outline-primary mt-sm-5" href="/{{page.lang}}/rb1.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a-->
-    </div>
-</div>
+  <div class="col-10 float-lg-left my-5 mx-sm-5">
+    <h1 class="display-4 font-weight-normal display-2">{{site.data.translations['IndexHeading'][page.lang]}}</h1>
+    <p class="lead font-weight-normal lead">{{site.data.translations['IndexHeadingText'][page.lang]}}</p>
+    <a class="btn btn-outline-primary mt-sm-5" href="/{{page.lang}}/contact.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a>
+  </div>
+</div> 
+
+{% include blog-overview.html %}

@@ -1,0 +1,39 @@
+<div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-left">
+    {% assign size = 0 %}
+            {% if c.first != page.lang %}
+                {% assign selectedPosts = c.last | where:"lang", page.lang %}
+                {% assign size =  site.posts.size %}
+                {% if size > 0 %}
+
+    <div class="col-10 float-lg-left mx-sm-5">
+        <h1 class="font-weight-normal display-5">{{site.data.translations['BlogTitle'][page.lang]}}</h1>
+    </div>
+    <div class="col-10 float-lg-left my-1 mx-sm-5">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item"></li>
+                    {% for post in site.posts %}
+                    <li class="list-group-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-sm-4">
+                                <p class="text-nowrap text-muted">{{ post.date | date: '%B %d, %Y' }}</p> 
+                                </div>
+                                <div class="col-sm-6">
+                                <a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    {% endfor %}
+                    
+                </ul>
+                {% endif %}
+            {% endif %}
+    </div>
+    <div class="col-10 float-lg-left my-1 mx-sm-5">
+        <a class="btn d-flex flex-row font-weight-normal" href="/en/blog/all.html"><p class="front-nav">{{site.data.translations['BlogViewAll'][page.lang]}}</p> <span class="material-icons"> keyboard_arrow_right </span> </a>
+    </div>
+
+    
+
+</div>

@@ -6,10 +6,11 @@ lang: en
 category: Announcements
 time-read: 5 minute read
 related_image: 
-published: false
+published: true
 ---
 
-Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to do this by making recycling accessible and financially sustainable. By providing our research and technology for free, we want to distribute it in a way it benefits communities around the world.
+Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to acheive this by making material based recycling accessible and financially sustainable. As soon as this challenge is completed there should be no need to drive oil demand based on the worlds plastic usage.  
+By providing our research and technology for free, we want to distribute it in a way it benefits communities around the world.
 At the moment we are focused on developing and testing an automated sorting and handling facility for municipal plastic waste items.
  
 ---
@@ -25,7 +26,7 @@ Seeing initiatives like precious plastic changing the mentality of consumers and
 ## Future Plans
  
 Recycling systems today have impressive but limited capabilities. It seems that we'll keep improving them to a point where they will be able to sort and handle all different types and forms of post-consumer plastic items.
-But based on the History of developments, it's important to come up with solutions that are accessible to every society on this planet. And at the same time producers of plastic items have to be limited and held accountable for the mess they create.
+But based on the History of developments, it's important to come up with solutions that are accessible to every community on this planet. And at the same time producers of plastic items have to be limited and held accountable for the mess they create.
  
 ---
  
@@ -37,7 +38,7 @@ We’re hoping to grow Open Recycling into an institution that is capable of ful
  
 As a non-profit, our aim is to build value for everyone rather than shareholders. Researchers will be strongly encouraged to publish their work, whether as papers, blog posts, or code, and our patents (if any) will be shared with the world. We’ll freely collaborate with others across many institutions and expect to work with companies to research and deploy new technologies.[^1]
  
-Open Recycling is a project currently run by Armin Straller the creator of an open-source plastic sensor called reremeter.
+Open Recycling is a project started by Armin Straller the creator of the open-source plastic sensor called reremeter.
  
 ---
  

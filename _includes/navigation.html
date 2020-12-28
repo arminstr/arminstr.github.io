@@ -13,7 +13,7 @@
         {% assign aboutKey = "about.html"  %}
         <ul class="nav navbar-nav navbar-right flex-row">
           <li class="nav-item">
-            <a class="nav-link {% if page.url contains blogKey %}active{% endif %}" href="/en/blog/all.html">{{site.data.translations['BlogTitle'][page.lang]}}</a>
+            <a class="nav-link {% if page.url contains blogKey %}active{% endif %}" href="/en/blog/all.html">{{site.data.translations['BlogTitleCaps'][page.lang]}}</a>
           </li>
           <li class="nav-item">
             <a class="nav-link {% if page.url contains aboutKey %}active{% endif %}" href="/{{page.lang}}/about.html">{{site.data.translations['AboutTitle'][page.lang]}}</a>

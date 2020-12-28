@@ -19,7 +19,7 @@ h2{
 p, a{
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 18px;
+    font-size: 16px;
     color: black;
 }
 
@@ -51,12 +51,13 @@ b {
 }
 
 .button-submit {
-    border-radius: 14px;
+    border-radius: 20px;
     line-height: 1;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 10px;
+    padding-bottom: 12px;
     font-family: 'IBM Plex Sans', sans-serif;
-    height:32px;
+    font-size: 16px;
+    height:40px;
 }
 
 .no-border{
@@ -64,7 +65,8 @@ b {
   }
 
 .footer-button{
-    font-size: 32px;
+    font-size: 18px;
+    width: 48px;
     border:none;
     margin-right: 16px;
 }
@@ -83,4 +85,33 @@ b {
 .img-thumbnail {
     border: 0 none;
     box-shadow: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.front-nav {
+    margin-bottom: 0em;
 }

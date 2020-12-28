@@ -8,6 +8,9 @@ ProjectsTitle:
   en: "PROJECTS"
   de: "PROJEKTE"
 BlogTitle:
+  en: "Blog"
+  de: "Blog"
+BlogTitleCaps:
   en: "BLOG"
   de: "BLOG"
 AboutTitle:
@@ -40,8 +43,8 @@ IndexHeadingText:
   de: "Open Recycling hat es sich zur Aufgabe gemacht die effizientes Recycling für die Öffentlichkeit zugänglich zu machen."
 
 IndexHeadingButton:
-  en: "Learn more"
-  de: "Weitere Infos"
+  en: "Get in Touch"
+  de: "Schreib uns"
 
 PressReleasesTitle:
   en: "Press releases"
@@ -137,9 +140,18 @@ FormSuccessTitle:
   en: "Thank you!"
   de: "Vielen Dank!"
 FormSuccessText:
-  en: "Your request is beeing processed by our service team. It usually takes them no longer then 20 hours to respond to your message."
-  de: "Ihre Anfrage wird von unserem Serviceteam bearbeitet. Die durchschnittliche Antwortzeit beträgt 20 Stunden."
+  en: "Your request is beeing processed. It usually takes them no longer then 20 hours to respond to your message."
+  de: "Ihre Anfrage wird bearbeitet. Die durchschnittliche Antwortzeit beträgt 20 Stunden."
 
 DataSubmissionError:
   en: "Error Receiving your request. Please try again later."
   de: "Beim verarbeiten Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+
+ContactHeading:
+  en: "Write us a message!"
+  de: "Schreib uns eine Nachricht!"
+
+
+BlogViewAll:
+  en: "VIEW ALL POSTS"
+  de: "ALLE POSTS"

@@ -18,17 +18,17 @@
                             <li class="list-group-item">
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col-sm">
+                                        <div class="col-md-4">
                                         <p class="text-nowrap text-muted">{{ post.date | date: '%B %d, %Y' }}</p> 
                                         </div>
-                                        <div class="col-sm-6">
+                                        <div class="col-md-6">
                                         <a href="{{ site.baseurl }}{{ post.url }}"><p>{{ post.title }}</p></a>
                                         </div>
-                                        <div class="col-sm">
+                                        <div class="col-md">
                                         <img src="{{ post.related_image }}" alt="" class="img-thumbnail rounded">
                                         </div>
                                     </div>
-                                    </div>
+                                </div>
                                 
                             </li>
                             {% endfor %}
