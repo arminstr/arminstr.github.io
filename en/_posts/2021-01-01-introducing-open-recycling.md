@@ -4,7 +4,7 @@ author: armin
 
 lang: en
 category: Announcements
-time-read: 5 minute read
+time-read: 3 minute read
 related_image: 
 published: true
 ---
