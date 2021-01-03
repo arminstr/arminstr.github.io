@@ -9,7 +9,7 @@ related_image:
 published: true
 ---
 
-Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to acheive this by making material based recycling accessible and financially sustainable. As soon as this challenge is completed there should be no need to drive oil demand based on the worlds plastic usage.  
+Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to acheive this by making material based recycling accessible and financially sustainable. As soon as this challenge is completed there should be no need for future generations to drive oil demand based on the worlds plastic usage.  
 By providing our research and technology for free, we want to distribute it in a way it benefits communities around the world.
 At the moment we are focused on developing and testing an automated sorting and handling facility for municipal plastic waste items.
  
