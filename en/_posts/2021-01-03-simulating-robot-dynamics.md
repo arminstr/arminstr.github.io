@@ -1,16 +1,20 @@
 ---
-layout: post
-author: armin
+layout: project
+author: Armin
 
 lang: en
-category: Research
-time-read: 2 minute read
+category: Projects
+time-read: 5 minute read
 related_image: /assets/img/content/simulatingRobotDynamics.png
+description: We've simulated robot dynamics for easier real-life system integration.
+abstract: This post features our simulation and visualization for robotic arms. To allow for easy start-up of the software system running on the actual robot controller, the values for moments of inertia, link masses as well as link lengths are derived from the CAD model of the robot.
+learnMore: true
+viewOnGithub: https://github.com/arminstr/roboticArm
+watchVideo: 
+readPaper:
+cardWidth: 4
 published: true
 ---
-This post features our simulation and visualization for robotic arms. To allow for easy start-up of the software system running on the actual robot controller, the values for moments of inertia, link masses as well as link lengths are derived from the CAD model of the robot.
- 
-{% include image.html url="/assets/img/content/roboGif.gif" description="Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps." %}
  
 ## Software Architecture
 The software architecture of the digital robot arm twin can be used for digital testing of movement range and speed. Also, collisions can be checked in advance. Currently, only the SCARA kinematic robot arm is modeled and visualized. Later on, the entire plastic sorting and handling system could be modeled the same way.
@@ -29,6 +33,8 @@ Joint angles of the robot arm are acquired from the CSV file every update cycle.
 ## Conclusion
 The simulation and visualization were tested using a 2,7 GHz Quad-Core Intel Core i7 without a graphics card. With this setup, a visualization frame rate of 20 fps was achieved. The simulation runs at 1 ms period time of the software loop. So far no performance tests have been executed on a real-time hardware platform. 
 The result can be seen in Figure 1.
+
+{% include image.html url="/assets/img/content/roboGif.gif" description="Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps." %}
  
 ---
  

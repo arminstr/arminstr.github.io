@@ -1,6 +1,6 @@
 ---
 layout: post
-author: armin
+author: OpenRecycling
 
 lang: en
 category: Announcements

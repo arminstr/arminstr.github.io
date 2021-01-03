@@ -1,0 +1,36 @@
+<div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-left">
+    <div class="col-10 float-lg-left my-1 mx-sm-5">
+            {% assign size = 0 %}
+            {% for c in site.categories %}
+                {% if c.first == 'Projects'%}
+                    {% if c.first != page.lang %}
+                        {% assign selectedPosts = c.last | where:"lang", page.lang %}
+                        {% assign size = selectedPosts.size %}
+                        {% if size > 0 %}
+                        <div class="container">
+                          <div class="row">
+                            {% for post in selectedPosts %}
+                            <div class="col-md-{{ post.cardWidth }}">
+                              <div class="card mb-{{ post.cardWidth }} border-0 shadow">
+                                  <img class="card-img-top rounded" src="{{ post.related_image }}" alt="">
+                                  <div class="card-body">
+                                      <h4 class="card-title">{{ post.title }}</h4>
+                                      <p class="card-text">{{ post.description }}</p>
+                                    {% if post.learnMore == true %}
+                                      <a href="{{ site.baseurl }}{{ post.url }}" class="card-link"><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">Learn more</p> <span class="material-icons"> keyboard_arrow_right </span></div></a>
+                                    {% endif %}
+                                    {% if post.viewOnGithub != false %}
+                                      <a href="{{ post.viewOnGithub }}" class="card-link"><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">View on Github </p> <span class="material-icons"> call_made </span></div></a>
+                                    {% endif %}
+                                  </div>
+                              </div>
+                            </div>
+                            {% endfor %}
+                          </div>  
+                        </div>
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+            {% endfor %}
+    </div>
+</div>

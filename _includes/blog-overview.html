@@ -11,7 +11,7 @@
     <div class="col-10 float-lg-left my-1 mx-sm-5">
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"></li>
-                    {% for post in site.posts %}
+                    {% for post in site.posts limit:5 %}
                     <li class="list-group-item">
                         <div class="container">
                             <div class="row">
@@ -35,7 +35,4 @@
         <a class="btn d-flex flex-row font-weight-normal" href="/en/blog/all.html"><p class="front-nav">{{site.data.translations['BlogViewAll'][page.lang]}}</p> <span class="material-icons"> keyboard_arrow_right </span> </a>
     </div>
     {% endif %}
-
-    
-
 </div>

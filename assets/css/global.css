@@ -113,5 +113,7 @@ b {
 }
 
 .front-nav {
-    margin-bottom: 0em;
+    margin-right:4px;
+
+    margin-bottom: 0.1em;
 }

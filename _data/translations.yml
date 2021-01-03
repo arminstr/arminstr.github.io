@@ -5,6 +5,9 @@ OpenRecyclingFooterTitle:
   en: "Home"
   de: "Home"
 ProjectsTitle:
+  en: "Projects"
+  de: "Projekte"
+ProjectsTitleCaps:
   en: "PROJECTS"
   de: "PROJEKTE"
 BlogTitle:
@@ -24,7 +27,6 @@ PressTitle:
 ContactUs:
   en: "Contact Us"
   de: "Kontakt"
-
 
 PrivayTitle:
   en: "Privacy Policy"
@@ -155,3 +157,7 @@ ContactHeading:
 BlogViewAll:
   en: "VIEW ALL POSTS"
   de: "ALLE POSTS"
+
+ProjectsViewAll:
+  en: "VIEW ALL PROJECTS"
+  de: "ALLE PROJEKTE"

@@ -11,7 +11,11 @@
         {% assign htmlEnding = ".html"  %}
         {% assign blogKey = "/blog/"  %}
         {% assign aboutKey = "about.html"  %}
+        {% assign projectsKey = "/projects/"  %}
         <ul class="nav navbar-nav navbar-right flex-row">
+          <li class="nav-item">
+            <a class="nav-link {% if page.url contains projectsKey %}active{% endif %}" href="/en/projects/overview.html">{{site.data.translations['ProjectsTitleCaps'][page.lang]}}</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link {% if page.url contains blogKey %}active{% endif %}" href="/en/blog/all.html">{{site.data.translations['BlogTitleCaps'][page.lang]}}</a>
           </li>

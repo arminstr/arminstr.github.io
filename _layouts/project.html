@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="{{page.lang}}">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    {% if page.show-prod-nav %}
+
+    {% endif %}
+
+    <!-- Title and Icon -->
+    <title>{{page.title}}</title>
+    {% feed_meta %}
+    {% seo %}
+    {% include icon-card.html %}
+
+  </head>
+  <body>
+    <header>
+    {% include navigation.html %}
+    </header>
+    <div class="container-fluid bg-dark p-5">
+        <div class="col-10 mx-sm-5 blog-main">
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-start flex-column">
+                        <h1 class="text-light">{{ page.title }}</h1>
+                        <p class="text-light mb-auto">{{ page.abstract }}</p>
+                        <small class="text-secondary my-1">{{ page.date | date: '%B %d, %Y' }} - {{ page.time-read }}</small>
+                </div>
+                <div class="col-md-2 p-4"></div>
+                <div class="col-md-5">
+                    <img class="img-fluid rounded float-right" src="{{ page.related_image }}" alt="">
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <main role="main" class="container">
+        <div class="col-10 mx-sm-5 blog-main my-5">
+            <div class="blog-post">
+                {{ content }} 
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    {% include footer.html %}
+    <!-- Last elemnt has to be cooki-banner -->
+    {% include cookie-banner.html %}
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
