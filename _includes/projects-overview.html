@@ -11,17 +11,21 @@
                           <div class="row">
                             {% for post in selectedPosts limit:10 %}
                             <div class="col-md-{{ post.cardWidth }}">
-                              <div class="card mb-{{ post.cardWidth }} border-0 shadow">
+                              <div class="card mb-{{ post.cardWidth }} my-3 border-0 shadow">
                                   <img class="card-img-top rounded" src="{{ post.related_image }}" alt="">
                                   <div class="card-body">
+                                    <div class="container" style="transform: rotate(0);">
                                       <h4 class="card-title">{{ post.title }}</h4>
                                       <p class="card-text">{{ post.description }}</p>
                                     {% if post.learnMore == true %}
-                                      <a href="{{ site.baseurl }}{{ post.url }}" class="card-link"><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">Learn more</p> <span class="material-icons"> keyboard_arrow_right </span></div></a>
+                                      <a href="{{ site.baseurl }}{{ post.url }}" class="card-link stretched-link"><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">Learn more</p> <span class="material-icons"> keyboard_arrow_right </span></div></a>
                                     {% endif %}
-                                    {% if post.viewOnGithub != false %}
-                                      <a href="{{ post.viewOnGithub }}" class="card-link"><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">View on Github </p> <span class="material-icons"> call_made </span></div></a>
-                                    {% endif %}
+                                    </div>
+                                    <div class="container py-3">
+                                      {% if post.viewOnGithub != false %}
+                                      <a href="{{ post.viewOnGithub }}" class="card-link" ><div class="card-link d-flex font-weight-normal"><p class="card-link front-nav">View on Github </p> <span class="material-icons"> call_made </span></div></a>
+                                      {% endif %}  
+                                    </div> 
                                   </div>
                               </div>
                             </div>

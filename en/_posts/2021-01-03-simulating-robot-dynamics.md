@@ -3,7 +3,7 @@ layout: project
 author: Armin
 
 lang: en
-category: Projects
+category: Research
 time-read: 5 minute read
 related_image: /assets/img/content/simulatingRobotDynamics.png
 description: We've simulated robot dynamics for easier real-life system integration.
