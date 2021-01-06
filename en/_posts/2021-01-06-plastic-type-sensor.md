@@ -36,7 +36,7 @@ This version of the plastic-type sensor will be able to identify plastics based 
 <div class="container p-5"></div>
  
 ### Final Words and Planned File Release
-The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 20201.
+The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 2021.
 If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.
  
 <a class="btn btn-outline-primary my-sm-3" href="/{{page.lang}}/contact.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a>
