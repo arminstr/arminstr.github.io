@@ -6,14 +6,14 @@ lang: en
 category: Projects
 time-read: 5 minute read
 related_image: /assets/img/content/sensorNotLabeled_small.png
-description: We continued our work on the low-cost plastic-type sensor. This version features a MEMS Light Filter and a serial data interface.
-abstract: Packaging comes in many different types of plastic. Most of them have the same haptics and optical appearance. As soon as sorting happens in an automated manner e.g. using robots, it is mandatory to use accurate sensing devices. This is the only way automatically recycled plastics can reach a purity that is good enough for closed-loop recycling.
+description: We continued our work on the low-cost plastic-type sensor. This version uses a MEMS Light Filter and a serial data interface.
+abstract: Packaging uses many different types of plastic. Most of them have the same haptics and optical appearance. As soon as sorting happens in an automated manner e.g. using robots, it is mandatory to use accurate sensing devices. This is the only way automatically recycled plastics can reach a purity that is good enough for closed-loop recycling.
 learnMore: true
 viewOnGithub: false
 watchVideo: 
 readPaper:
 cardWidth: 5
-published: false
+published: true
 ---
 
 ### Introduction
@@ -36,8 +36,8 @@ This version of the plastic-type sensor will be able to identify plastics based 
 <div class="container p-5"></div>
  
 ### Final Words and Planned File Release
-The targeted final file release is by end of Q3 2021.
-If you want to help with software or hardware development feel free to contact us using the contact form linked below.
+The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 20201.
+If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.
  
 <a class="btn btn-outline-primary my-sm-3" href="/{{page.lang}}/contact.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a>
 ---
