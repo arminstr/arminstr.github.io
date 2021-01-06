@@ -17,7 +17,7 @@ published: true
 ---
 
 ### Introduction
-After gaining experience with plastic-type sensing based on near-infrared spectroscopy in the reremeter[^1] project, we decided to take it a step further. To identify plastics with greater than human accuracy and avoid unrecognized wrong detections in automated sorting environments we decided on a NIR spectrum analysis with greater resolution. Therefore we intend on using a MEMS light filter in combination with a broadband light source.
+After gaining experience with plastic-type sensing based on near-infrared spectroscopy in the reremeter[^1] project, we decided to take it a step further. To identify plastics with greater than human accuracy and avoid unrecognized wrong detections in automated sorting environments we decided on a NIR spectrum analysis with greater resolution. Therefore we intend on using a MEMS light filter in combination with a broadband light source. A graphical overview of this setup is displayed in Figure 1.
  
 {% include image.html url="/assets/img/content/sensorLabeled_large.png" description="Figure 1: NIR plastic-type Sensor overview sketch" %}
 ### Technical Explanation
