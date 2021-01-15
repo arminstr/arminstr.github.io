@@ -9,7 +9,7 @@ related_image: /assets/img/content/simulatingRobotDynamics.png
 description: We've simulated robot dynamics for easier real-life system integration.
 abstract: This post features our simulation and visualization for robotic arms. To allow for easy start-up of the software system running on the actual robot controller, the values for moments of inertia, link masses as well as link lengths are derived from the CAD model of the robot.
 learnMore: true
-viewOnGithub: https://github.com/arminstr/roboticArm
+viewOnGithub: https://github.com/arminstr/robotArm
 watchVideo: 
 readPaper:
 cardWidth: 4
