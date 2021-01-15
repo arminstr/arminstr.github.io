@@ -1,9 +1,9 @@
 ---
 layout: post
-author: armin
+author: Armin
 
 lang: en
-category: Announcement
+category: Announcements
 time-read: 1 minute read
 related_image: 
 published: true
