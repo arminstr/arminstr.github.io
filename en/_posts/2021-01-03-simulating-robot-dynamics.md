@@ -12,7 +12,7 @@ learnMore: true
 viewOnGithub: https://github.com/arminstr/robotArm
 watchVideo: 
 readPaper:
-cardWidth: 4
+cardWidth: 5
 published: true
 ---
  
