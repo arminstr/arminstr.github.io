@@ -1,45 +1,42 @@
 ---
 layout: project
 author: Armin
-
+ 
 lang: en
-category: Projects
+category: Research
 time-read: 5 minute read
 related_image: /assets/img/content/sortingLineNotLabeled_small.png
-description: We continued our work on the low-cost plastic-type sensor. This version uses a MEMS Light Filter and a serial data interface.
-abstract: Packaging uses many different types of plastic. Most of them have the same haptics and optical appearance. As soon as sorting happens in an automated manner e.g. using robots, it is mandatory to use accurate sensing devices. This is the only way automatically recycled plastics can reach a purity that is good enough for closed-loop recycling.
+description: Imagining what small scale plastic sorting could look like.
+abstract: Automating sorting is key for profitable plastic recycling. We imagine a sorting line utilizing a conveyor belt, camera, robot arm, and plastic-type sensor.
 learnMore: true
 viewOnGithub: false
-watchVideo: 
+watchVideo:
 readPaper:
 cardWidth: 5
-published: false
+published: true
 ---
-
+ 
 ### Introduction
-After gaining experience with plastic-type sensing based on near-infrared spectroscopy in the reremeter[^1] project, we decided to take it a step further. To identify plastics with greater than human accuracy and avoid unrecognized wrong detections in automated sorting environments we decided on a NIR spectrum analysis with greater resolution. Therefore we intend on using a MEMS light filter in combination with a broadband light source. A graphical overview of this setup is displayed in Figure 1.
- 
-{% include image.html url="/assets/img/content/sortingLineLabeled_large.png" description="Figure 1: Sorting line with conveyor belt, camera, robot arm and plastic sensor" %}
-### Technical Explanation
-The plastic-type sensor uses a light bulb in combination with a MEMS NIR filter to create high-resolution spectra in the range of 1550 to 1850 nanometers. In this region, all majorly used plastic-types show unique spectra.
-These spectra will be transferred to a computer running the identification software. This software will then use the characteristic features of each plastic-type for identification.
-As we capture a 1 nm resolution spectrum the scanning and identification time will be at 1-2 seconds.
- 
-### Manufacturing and Expenses
-This sensor will be a highly integrated device. This makes it hard to assemble by hand. Additionally, the manufacturing steps have to include sensor calibration and parameter changes for each individual unit. Those steps are hard to automate and require certain know-how.
-The MEMS sensor will be sourced from a Japanese manufacturer. Therefore this project is dependent on part availability.
-All other parts of this project will be available open-source. We plan on providing all necessary manufacturing files, CAD Models, and assembly instructions at no charge. Our target hardware price is 300 euros. A pre-assembled kit with sensor calibration might become available for ~ 700 euros.
- 
-### Conclusion
-This version of the plastic-type sensor will be able to identify plastics based on features that are hidden from human eyesight or touch. We still intend on using an additional visual classification model for the basic identification of recyclables and the general material quality. This way e.g. good quality, high reflectivity items could be scanned at a lower resolution. Using this approach identification times could be reduced by a factor of 10.
+To maximize the productivity of small scale plastic recycling workspaces, we designed an automated small scale sorting facility. A graphical overview of this setup is displayed in Figure 1.
+
+### Features
+The sorting line will utilize a camera to identify the plastic items coming into the facility. It will use a machine learning model to classify the plastic items into different plastic kinds, as well as their general quality and level of soiling. Additionally, conventional computer vision algorithms will be utilized to detect the object's position as well as the optimal grasping point for the robot arm.
+This will happen within the range of motion of the robot arm. That way the items could be flipped for better identification.
+After a visual investigation of the objects, they will be picked up by the robot and scanned by the plastic-type sensor. This will initially happen by bringing the item to the sensor. Later on, the sensor might be integrated into the gripper of the robot arm.
+As a final step, the items will be tossed into different bins based on user configuration or plastic-type. Unidentifiable objects will remain on the conveyor belt and will be dropped into a hand sorting bin.
+The target identification and handling time for an individual item will be five seconds.
+
+{% include image.html url="/assets/img/content/sortingLineLabeled_large.png" description="Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor" %}
+
+### Safety and Ease Of Use
+The robot arm will feature torque limiting algorithms and emergency stop functions. Additionally, software for an easy setup will be provided. This will take care of camera calibration for the visual identification, as well as position teach-in for the sorting bin locations. In case of direct tossing into shredders, interface pins will be provided which tell the shredders that a new item is arriving.
  
 <div class="container p-5"></div>
- 
-### Final Words and Planned File Release
-The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 2021.
-If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.
+### Final Words and Future Steps
+This sorting line is just a concept. But as soon as the work on the plastic-type sensor and the robot arm is completed, they will be incorporated into such kind of system. When reaching the five-second cycle time theoretically ~ 17280 items could be handled a day[^1]. Assuming the handling of 8-gram yogurt cups this would result in a daily material sorting capability of 138 kg.
+If you have any ideas for improvement or want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.
  
 <a class="btn btn-outline-primary my-sm-3" href="/{{page.lang}}/contact.html">{{site.data.translations['IndexHeadingButton'][page.lang]}}</a>
 ---
 ###### Footnotes
-[^1]: reremeter - Open Source discrete NIR plastic-type sensor released by RealRecycling in 2019
+[^1]: Assuming 24 hours of operation per day
