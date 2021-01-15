@@ -3,7 +3,7 @@ layout: project
 author: Armin
  
 lang: en
-category: Projects
+category: Research
 time-read: 5 minute read
 related_image: /assets/img/content/sortingLineNotLabeled_small.png
 description: Imagining what small scale plastic sorting could look like.
