@@ -7,7 +7,7 @@ category: Research
 time-read: 5 minute read
 related_image: /assets/img/content/sortingLineNotLabeled_small.png
 description: Imagining what small scale plastic sorting could look like.
-abstract: Automating sorting is key for profitable plastic recycling. We imagine a sorting line utilizing a conveyor belt, camera, robot arm, and plastic-type sensor.
+abstract: Automating sorting is key for profitable plastic recycling. This is mainly due to its labor-intensive and technologically complex nature. We imagine a sorting line utilizing a conveyor belt, camera, robot arm, and plastic-type sensor. Its target material handling capability will be more than 15 thousand items a day.
 learnMore: true
 viewOnGithub: false
 watchVideo:
@@ -17,14 +17,16 @@ published: true
 ---
  
 ### Introduction
-To maximize the productivity of small scale plastic recycling workspaces, we designed an automated small scale sorting facility. A graphical overview of this setup is displayed in Figure 1.
+To maximize the productivity of small-scale plastic recycling workspaces, we designed an automated small-scale sorting facility. A graphical overview of this setup is displayed in Figure 1.
 
 ### Features
-The sorting line will utilize a camera to identify the plastic items coming into the facility. It will use a machine learning model to classify the plastic items into different plastic kinds, as well as their general quality and level of soiling. Additionally, conventional computer vision algorithms will be utilized to detect the object's position as well as the optimal grasping point for the robot arm.
+The sorting line will utilize a camera to identify the plastic items coming into the facility. It will use a machine learning model to classify the plastic items into the different quality and soiling levels. Additionally, conventional computer vision algorithms will be utilized to detect the object's position as well as the optimal grasping point for the robot arm.
 This will happen within the range of motion of the robot arm. That way the items could be flipped for better identification.
 After a visual investigation of the objects, they will be picked up by the robot and scanned by the plastic-type sensor. This will initially happen by bringing the item to the sensor. Later on, the sensor might be integrated into the gripper of the robot arm.
 As a final step, the items will be tossed into different bins based on user configuration or plastic-type. Unidentifiable objects will remain on the conveyor belt and will be dropped into a hand sorting bin.
 The target identification and handling time for an individual item will be five seconds.
+<br>
+Feel free to explore the individual components using our project overview page. 
 
 {% include image.html url="/assets/img/content/sortingLineLabeled_large.png" description="Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor" %}
 
