@@ -8,7 +8,7 @@ time-read: 1 minute read
 related_image: /assets/img/content/Development-Sensor.png
 published: true
 ---
-## Upadte on Sensor Development
+## Update on Sensor Development
  
 The [sensor](https://openrecycling.com/en/projects/2021/01/06/plastic-type-sensor.html) prototype is fully assembled now. Also all hardware features are tested and work fine. 
 Next steps will be development of the spectrum recording firmware and voltage control calibration. 
