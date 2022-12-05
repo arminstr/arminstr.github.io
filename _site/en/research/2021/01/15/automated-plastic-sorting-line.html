@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
+
+    <!-- Title and Icon -->
+    <title>Projects - Automated Plastic Sorting Line</title>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Automated Plastic Sorting Line</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Automated Plastic Sorting Line" />
+<meta name="author" content="Armin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="Imagining what small scale plastic sorting could look like." />
+<meta property="og:description" content="Imagining what small scale plastic sorting could look like." />
+<link rel="canonical" href="http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html" />
+<meta property="og:url" content="http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-15T00:00:00+01:00" />
+<script type="application/ld+json">
+{"datePublished":"2021-01-15T00:00:00+01:00","headline":"Automated Plastic Sorting Line","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html"},"url":"http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html","author":{"@type":"Person","name":"Armin"},"description":"Imagining what small scale plastic sorting could look like.","@type":"BlogPosting","dateModified":"2021-01-15T00:00:00+01:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Icon Stuff -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- SEO twitter card -->
+<meta property="og:type" content="" />
+<meta name="twitter:site" content="http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html" />
+<meta name="twitter:card" content="" />
+<meta name="twitter:title" content="Automated Plastic Sorting Line" />
+<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="twitter:description" content="Imagining what small scale plastic sorting could look like." />
+
+  </head>
+  <body>
+    <header>
+    <!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+      <div class="navbar-header navbar-left pull-left">
+        <a class="navbar-brand" href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" height="32" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+      </div>
+      <div class="navbar-header navbar-right pull-right">
+        
+        
+        
+        
+        
+        
+        
+        
+        <ul class="nav navbar-nav navbar-right flex-row">
+          <li class="nav-item">
+            <a class="nav-link " href="/en/projects/overview.html">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  active  " href="/en/blog/all.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/en/about.html">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    </header>
+    <div class="container-fluid bg-dark p-5">
+        <div class="col-10 mx-sm-5 blog-main">
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-start flex-column">
+                        <h1 class="text-light">Automated Plastic Sorting Line</h1>
+                        <p class="text-light mb-auto">Automating sorting is key for profitable plastic recycling. This is mainly due to its labor-intensive and technologically complex nature. We imagine a sorting line utilizing a conveyor belt, camera, robot arm, and plastic-type sensor. Its target material handling capability will be more than 15 thousand items a day.</p>
+                        <small class="text-secondary my-1">January 15, 2021 - 5 minute read</small>
+                </div>
+                <div class="col-md-2 p-4"></div>
+                <div class="col-md-5">
+                    <img class="img-fluid rounded float-right" src="/assets/img/content/sortingLineNotLabeled_small.png" alt="">
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <main role="main" class="container">
+        <div class="col-10 mx-sm-5 blog-main my-5">
+            <div class="blog-post">
+                <h3 id="introduction">Introduction</h3>
+<p>To maximize the productivity of small-scale plastic recycling workspaces, we designed an automated small-scale sorting facility. A graphical overview of this setup is displayed in Figure 1.</p>
+
+<h3 id="features">Features</h3>
+<p>The sorting line will utilize a camera to identify the plastic items coming into the facility. It will use a machine learning model to classify the plastic items into the different quality and soiling levels. Additionally, conventional computer vision algorithms will be utilized to detect the object’s position as well as the optimal grasping point for the robot arm.
+This will happen within the range of motion of the robot arm. That way the items could be flipped for better identification.
+After a visual investigation of the objects, they will be picked up by the robot and scanned by the plastic-type sensor. This will initially happen by bringing the item to the sensor. Later on, the sensor might be integrated into the gripper of the robot arm.
+As a final step, the items will be tossed into different bins based on user configuration or plastic-type. Unidentifiable objects will remain on the conveyor belt and will be dropped into a hand sorting bin.
+The target identification and handling time for an individual item will be five seconds.
+<br />
+Feel free to explore the individual components using our project overview page.</p>
+
+<figure class="image my-5">
+    <img src="/assets/img/content/sortingLineLabeled_large.png" class="img-fluid my-3" alt="Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor" />
+    <figcaption><small>Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor</small></figcaption>
+</figure>
+
+<h3 id="safety-and-ease-of-use">Safety and Ease Of Use</h3>
+<p>The robot arm will feature torque limiting algorithms and emergency stop functions. Additionally, software for an easy setup will be provided. This will take care of camera calibration for the visual identification, as well as position teach-in for the sorting bin locations. In case of direct tossing into shredders, interface pins will be provided which tell the shredders that a new item is arriving.</p>
+
+<div class="container p-5"></div>
+<h3 id="final-words-and-future-steps">Final Words and Future Steps</h3>
+<p>This sorting line is just a concept. But as soon as the work on the plastic-type sensor and the robot arm is completed, they will be incorporated into such kind of system. When reaching the five-second cycle time theoretically ~ 17280 items could be handled a day<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>. Assuming the handling of 8-gram yogurt cups this would result in a daily material sorting capability of 138 kg.
+If you have any ideas for improvement or want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.</p>
+
+<h2 id="get-in-touch"><a class="btn btn-outline-primary my-sm-3" href="/en/contact.html">Get in Touch</a></h2>
+<h6 id="footnotes">Footnotes</h6>
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Assuming 24 hours of operation per day <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+ 
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<footer class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+    <div class="container row">
+      <div class="col-md-3 my-2">
+        <a href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" width="48" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+        <small class="text-muted mx-1"><p id="copyright__year">2020</p></small>
+        <!--ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul-->
+      </div>
+      <div class="col-sm-4 my-2">
+          <div class="btn-group mr-2" role="group" aria-label="Follow">
+            <!--button type="button" class="btn footer-button"><a href="https://www.linkedin.com/in/armin-straller" target="_blank" style="color:black;"><i class="fa fa-linkedin"></i></a></button-->
+            <button type="button" class="btn footer-button"><a href="https://www.instagram.com/openrecycling" target="_blank" style="color:black;"><i class="fa fa-instagram"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://www.youtube.com/channel/UC7T99mtsuLUtVicwKSb20lg" target="_blank" style="color:black;"><i class="fa fa-youtube-play"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://github.com/arminstr" target="_blank" style="color:black;"><i class="fa fa-github"></i></a></button>
+          </div>
+      </div>
+      <div class="col-md-3 my-2">
+        <ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul>
+      </div>
+      <!--div class="col-sm my-2">
+        <h5>Language</h5>
+        
+        <ul class="list-unstyled text-small">
+          
+          
+              
+              
+              <li><a class="text-dark"  href="/de//en/research/2021/01/15/automated-plastic-sorting-line.html">de</a></li>
+              
+          
+              
+              
+              <li><a class="text-dark"  href="/en//en/research/2021/01/15/automated-plastic-sorting-line.html">en</a></li>
+              
+          
+        </ul>
+      </div-->
+    </div>
+    </div>
+</footer>
+
+<script>
+  var d = new Date().getFullYear();
+  document.getElementById("copyright__year").innerHTML = '© 2019 - ' + d.toString();
+</script>
+
+    <!-- Last elemnt has to be cooki-banner -->
+    <!-- Modal -->
+<div class="modal cookie-container fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header no-border mx-3">
+            <h5 class="modal-title" id="staticBackdropLabel">We respect your privacy.</h5>
+            <button type="button" class="close cookie-conainer-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <small>This is why we do only use Cookies and Trackers that improve your experience on our website. <a href="/en/data-privacy.html">More Info.</a></small>
+          </div>
+          <div class="modal-footer no-border d-flex justify-content-between">
+            <button type="button" class="btn cookie-button-decline text-left" data-dismiss="modal">Technically necessary cookies only</button>
+            <button type="button" class="btn cookie-button-accept btn-primary mx-3">Accept all</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/cookies.js"></script>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

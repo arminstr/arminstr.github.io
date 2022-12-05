@@ -1,0 +1,237 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
+
+    <!-- Title and Icon -->
+    <title>Projects - Simulating Robot Dynamics</title>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Simulating Robot Dynamics</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Simulating Robot Dynamics" />
+<meta name="author" content="Armin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="We’ve simulated robot dynamics for easier real-life system integration." />
+<meta property="og:description" content="We’ve simulated robot dynamics for easier real-life system integration." />
+<link rel="canonical" href="http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html" />
+<meta property="og:url" content="http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-01-03T00:00:00+01:00" />
+<script type="application/ld+json">
+{"datePublished":"2021-01-03T00:00:00+01:00","headline":"Simulating Robot Dynamics","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html"},"url":"http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html","author":{"@type":"Person","name":"Armin"},"description":"We’ve simulated robot dynamics for easier real-life system integration.","@type":"BlogPosting","dateModified":"2021-01-03T00:00:00+01:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Icon Stuff -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- SEO twitter card -->
+<meta property="og:type" content="" />
+<meta name="twitter:site" content="http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html" />
+<meta name="twitter:card" content="" />
+<meta name="twitter:title" content="Simulating Robot Dynamics" />
+<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="twitter:description" content="We've simulated robot dynamics for easier real-life system integration." />
+
+  </head>
+  <body>
+    <header>
+    <!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+      <div class="navbar-header navbar-left pull-left">
+        <a class="navbar-brand" href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" height="32" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+      </div>
+      <div class="navbar-header navbar-right pull-right">
+        
+        
+        
+        
+        
+        
+        
+        
+        <ul class="nav navbar-nav navbar-right flex-row">
+          <li class="nav-item">
+            <a class="nav-link active" href="/en/projects/overview.html">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    " href="/en/blog/all.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/en/about.html">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    </header>
+    <div class="container-fluid bg-dark p-5">
+        <div class="col-10 mx-sm-5 blog-main">
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-start flex-column">
+                        <h1 class="text-light">Simulating Robot Dynamics</h1>
+                        <p class="text-light mb-auto">This post features our simulation and visualization for robotic arms. To allow for easy start-up of the software system running on the actual robot controller, the values for moments of inertia, link masses as well as link lengths are derived from the CAD model of the robot.</p>
+                        <small class="text-secondary my-1">January 03, 2021 - 5 minute read</small>
+                </div>
+                <div class="col-md-2 p-4"></div>
+                <div class="col-md-5">
+                    <img class="img-fluid rounded float-right" src="/assets/img/content/simulatingRobotDynamics.png" alt="">
+                </div>
+                
+            </div>
+            
+            
+        </div>
+    </div>
+    <main role="main" class="container">
+        <div class="col-10 mx-sm-5 blog-main my-5">
+            <div class="blog-post">
+                <h2 id="software-architecture">Software Architecture</h2>
+<p>The software architecture of the digital robot arm twin can be used for digital testing of movement range and speed. Also, collisions can be checked in advance. Currently, only the SCARA kinematic robot arm is modeled and visualized. Later on, the entire plastic sorting and handling system could be modeled the same way.</p>
+
+<h3 id="simulation">Simulation</h3>
+<p>For maximum software portability, the simulation is developed in python. This way it can be easily run on a Linux compute module in the real robot arm as well as on a high performing simulation computer. By incorporating this aspect multiple robots can be run in parallel on different virtual machines. Training machine learning models for path planning or gripping positions can be achieved this way.
+The overall robot software consists of a waypoint manager, the robot arm equivalent, the mathematical models including e.g. inverse kinematics and a dynamic model. Additionally, the position and speed controllers are implemented as PID control algorithms.
+Inverse kinematics models help to determine the individual joint angles and extensions based on a given end-effector position and rotation.
+The dynamic model provides a description of the relationship between the joint actuator torques and the motion of the structure.<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote">1</a></sup>
+For visualization access, the robot arm position values are written to a CSV file.</p>
+
+<h3 id="visualization">Visualization</h3>
+<p>The visualization is implemented in javascript and can be run using your preferred browser. It uses p5.js which is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else. <sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote">2</a></sup>
+Joint angles of the robot arm are acquired from the CSV file every update cycle. Then the values are plotted to the 3D visualization frame as well as the data graphs.</p>
+
+<h2 id="conclusion">Conclusion</h2>
+<p>The simulation and visualization were tested using a 2,7 GHz Quad-Core Intel Core i7 without a graphics card. With this setup, a visualization frame rate of 20 fps was achieved. The simulation runs at 1 ms period time of the software loop. So far no performance tests have been executed on a real-time hardware platform. 
+The result can be seen in Figure 1.</p>
+
+<figure class="image my-5">
+    <img src="/assets/img/content/roboGif.gif" class="img-fluid my-3" alt="Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps." />
+    <figcaption><small>Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps.</small></figcaption>
+</figure>
+
+<hr />
+
+<h6 id="footnotes">Footnotes</h6>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G. “Robotics: Modelling, Planning and Control” Springer 2009 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+    <li id="fn:2" role="doc-endnote">
+      <p>p5js.org Homepage <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+ 
+            </div>
+            
+        </div>
+    </main>
+    
+    
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<footer class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+    <div class="container row">
+      <div class="col-md-3 my-2">
+        <a href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" width="48" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+        <small class="text-muted mx-1"><p id="copyright__year">2020</p></small>
+        <!--ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul-->
+      </div>
+      <div class="col-sm-4 my-2">
+          <div class="btn-group mr-2" role="group" aria-label="Follow">
+            <!--button type="button" class="btn footer-button"><a href="https://www.linkedin.com/in/armin-straller" target="_blank" style="color:black;"><i class="fa fa-linkedin"></i></a></button-->
+            <button type="button" class="btn footer-button"><a href="https://www.instagram.com/openrecycling" target="_blank" style="color:black;"><i class="fa fa-instagram"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://www.youtube.com/channel/UC7T99mtsuLUtVicwKSb20lg" target="_blank" style="color:black;"><i class="fa fa-youtube-play"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://github.com/arminstr" target="_blank" style="color:black;"><i class="fa fa-github"></i></a></button>
+          </div>
+      </div>
+      <div class="col-md-3 my-2">
+        <ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul>
+      </div>
+      <!--div class="col-sm my-2">
+        <h5>Language</h5>
+        
+        <ul class="list-unstyled text-small">
+          
+          
+              
+              
+              <li><a class="text-dark"  href="/de//en/projects/2021/01/03/simulating-robot-dynamics.html">de</a></li>
+              
+          
+              
+              
+              <li><a class="text-dark"  href="/en//en/projects/2021/01/03/simulating-robot-dynamics.html">en</a></li>
+              
+          
+        </ul>
+      </div-->
+    </div>
+    </div>
+</footer>
+
+<script>
+  var d = new Date().getFullYear();
+  document.getElementById("copyright__year").innerHTML = '© 2019 - ' + d.toString();
+</script>
+
+    <!-- Last elemnt has to be cooki-banner -->
+    <!-- Modal -->
+<div class="modal cookie-container fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header no-border mx-3">
+            <h5 class="modal-title" id="staticBackdropLabel">We respect your privacy.</h5>
+            <button type="button" class="close cookie-conainer-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <small>This is why we do only use Cookies and Trackers that improve your experience on our website. <a href="/en/data-privacy.html">More Info.</a></small>
+          </div>
+          <div class="modal-footer no-border d-flex justify-content-between">
+            <button type="button" class="btn cookie-button-decline text-left" data-dismiss="modal">Technically necessary cookies only</button>
+            <button type="button" class="btn cookie-button-accept btn-primary mx-3">Accept all</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/cookies.js"></script>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>

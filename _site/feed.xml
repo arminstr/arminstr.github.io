@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-07-28T13:18:20+02:00</updated><id>http://localhost:4000/feed.xml</id><entry xml:lang="en"><title type="html">Firmware Testing And Data Recording</title><link href="http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html" rel="alternate" type="text/html" title="Firmware Testing And Data Recording" /><published>2021-05-01T00:00:00+02:00</published><updated>2021-05-01T00:00:00+02:00</updated><id>http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording</id><content type="html" xml:base="http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html">&lt;h2 id=&quot;news-regarding-the-plastic-type-sensor&quot;&gt;News regarding the Plastic Type Sensor&lt;/h2&gt;
+
+&lt;p&gt;Sadly the dataset is not ready at this point. But it is in the making!
+The first measurement results are displayed below.&lt;/p&gt;
+
+&lt;figure class=&quot;image my-5&quot;&gt;
+    &lt;img src=&quot;/assets/img/content/sample_data_first.png&quot; class=&quot;img-fluid my-3&quot; alt=&quot;Figure 1: Reflectivity scans for four different samples of PP.&quot; /&gt;
+    &lt;figcaption&gt;&lt;small&gt;Figure 1: Reflectivity scans for four different samples of PP.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;For testing purposes a case for the prototype hardware was printed. As an interface to the computer an Arduino is used.&lt;/p&gt;
+
+&lt;p&gt;The data dispalyed in Figure 1 is a reflectivity measurement for four different white polypropylene plastic samples. Additionally, a reference measurement without a sample is subtracted from the original measurement. Then a minmax algorithm is applied and the data gets filtered. You can check out the data files on github and run the evaluation script by yourself.&lt;/p&gt;
+
+&lt;p&gt;Help with data processing is always welcome! Feel free to contact us via contact@openrecycling.com or using the contact form linked below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;/en/contact.html&quot;&gt;Get in Touch&lt;/a&gt;&lt;/p&gt;</content><author><name>Armin</name></author><category term="Announcements" /><summary type="html">News regarding the Plastic Type Sensor Sadly the dataset is not ready at this point. But it is in the making! The first measurement results are displayed below.</summary></entry><entry xml:lang="en"><title type="html">Hardware Testing And Firmware Development</title><link href="http://localhost:4000/en/announcements/2021/03/13/hardware-testing-and-firmware-development.html" rel="alternate" type="text/html" title="Hardware Testing And Firmware Development" /><published>2021-03-13T00:00:00+01:00</published><updated>2021-03-13T00:00:00+01:00</updated><id>http://localhost:4000/en/announcements/2021/03/13/hardware-testing-and-firmware-development</id><content type="html" xml:base="http://localhost:4000/en/announcements/2021/03/13/hardware-testing-and-firmware-development.html">&lt;h2 id=&quot;update-on-sensor-development&quot;&gt;Update on Sensor Development&lt;/h2&gt;
+
+&lt;p&gt;The &lt;a href=&quot;https://openrecycling.com/en/projects/2021/01/06/plastic-type-sensor.html&quot;&gt;sensor&lt;/a&gt; prototype is fully assembled now. Also all hardware features are tested and work fine. 
+Next steps will be development of the spectrum recording firmware and voltage control calibration. 
+Excited to share the first labeled datasets by end of april.&lt;/p&gt;
+
+&lt;p&gt;Follow us on &lt;a href=&quot;https://www.instagram.com/openrecycling/&quot;&gt;Instagram&lt;/a&gt; to stay up to date with the testing. Any questions? Feel free to contact us via contact@openrecycling.com or using the contact form linked below.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;/en/contact.html&quot;&gt;Get in Touch&lt;/a&gt;&lt;/p&gt;</content><author><name>Armin</name></author><category term="Announcements" /><summary type="html">Update on Sensor Development The sensor prototype is fully assembled now. Also all hardware features are tested and work fine. Next steps will be development of the spectrum recording firmware and voltage control calibration. Excited to share the first labeled datasets by end of april.</summary></entry><entry xml:lang="en"><title type="html">Plastic Sensor Arrived In The Mail</title><link href="http://localhost:4000/en/announcements/2021/02/09/plastic-sensor-arrived-in-the-mail.html" rel="alternate" type="text/html" title="Plastic Sensor Arrived In The Mail" /><published>2021-02-09T00:00:00+01:00</published><updated>2021-02-09T00:00:00+01:00</updated><id>http://localhost:4000/en/announcements/2021/02/09/plastic-sensor-arrived-in-the-mail</id><content type="html" xml:base="http://localhost:4000/en/announcements/2021/02/09/plastic-sensor-arrived-in-the-mail.html">&lt;h2 id=&quot;today-the-mems-sensor-by-hamamatsu-arrived-in-the-mail&quot;&gt;Today the MEMS Sensor by HAMAMATSU arrived in the mail!&lt;/h2&gt;
+
+&lt;p&gt;The MEMS-FPI sensor by HAMAMATSU is the key component for the &lt;a href=&quot;https://openrecycling.com/en/projects/2021/01/06/plastic-type-sensor.html&quot;&gt;Plasitc Type Sensor&lt;/a&gt;. Follow us on &lt;a href=&quot;https://www.instagram.com/openrecycling/&quot;&gt;Instagram&lt;/a&gt; to stay up to date with the testing progress.&lt;/p&gt;</content><author><name>Armin</name></author><category term="Announcements" /><summary type="html">Today the MEMS Sensor by HAMAMATSU arrived in the mail! The MEMS-FPI sensor by HAMAMATSU is the key component for the Plasitc Type Sensor. Follow us on Instagram to stay up to date with the testing progress.</summary></entry><entry xml:lang="en"><title type="html">Robot Motor Controller</title><link href="http://localhost:4000/en/announcements/2021/01/15/robot-motor-controller.html" rel="alternate" type="text/html" title="Robot Motor Controller" /><published>2021-01-15T00:00:00+01:00</published><updated>2021-01-15T00:00:00+01:00</updated><id>http://localhost:4000/en/announcements/2021/01/15/robot-motor-controller</id><content type="html" xml:base="http://localhost:4000/en/announcements/2021/01/15/robot-motor-controller.html">&lt;h2 id=&quot;we-just-released-the-github-repository-for-our-motor-controller&quot;&gt;We just released the GitHub repository for our Motor Controller!&lt;/h2&gt;
+
+&lt;p&gt;It’s a motor controller using a four full-bridge power switch integrated circuit. This way three and four-phased motors can be connected. The design allows communication via CAN, the connection of a differential 5V or 12V encoder, and a homing switch.&lt;/p&gt;
+
+&lt;p&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;https://github.com/arminstr/motorDriver&quot;&gt;View on Github&lt;/a&gt;&lt;/p&gt;</content><author><name>Armin</name></author><category term="Announcements" /><summary type="html">We just released the GitHub repository for our Motor Controller! It’s a motor controller using a four full-bridge power switch integrated circuit. This way three and four-phased motors can be connected. The design allows communication via CAN, the connection of a differential 5V or 12V encoder, and a homing switch.</summary></entry><entry xml:lang="en"><title type="html">Automated Plastic Sorting Line</title><link href="http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html" rel="alternate" type="text/html" title="Automated Plastic Sorting Line" /><published>2021-01-15T00:00:00+01:00</published><updated>2021-01-15T00:00:00+01:00</updated><id>http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line</id><content type="html" xml:base="http://localhost:4000/en/research/2021/01/15/automated-plastic-sorting-line.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;To maximize the productivity of small-scale plastic recycling workspaces, we designed an automated small-scale sorting facility. A graphical overview of this setup is displayed in Figure 1.&lt;/p&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+&lt;p&gt;The sorting line will utilize a camera to identify the plastic items coming into the facility. It will use a machine learning model to classify the plastic items into the different quality and soiling levels. Additionally, conventional computer vision algorithms will be utilized to detect the object’s position as well as the optimal grasping point for the robot arm.
+This will happen within the range of motion of the robot arm. That way the items could be flipped for better identification.
+After a visual investigation of the objects, they will be picked up by the robot and scanned by the plastic-type sensor. This will initially happen by bringing the item to the sensor. Later on, the sensor might be integrated into the gripper of the robot arm.
+As a final step, the items will be tossed into different bins based on user configuration or plastic-type. Unidentifiable objects will remain on the conveyor belt and will be dropped into a hand sorting bin.
+The target identification and handling time for an individual item will be five seconds.
+&lt;br /&gt;
+Feel free to explore the individual components using our project overview page.&lt;/p&gt;
+
+&lt;figure class=&quot;image my-5&quot;&gt;
+    &lt;img src=&quot;/assets/img/content/sortingLineLabeled_large.png&quot; class=&quot;img-fluid my-3&quot; alt=&quot;Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor&quot; /&gt;
+    &lt;figcaption&gt;&lt;small&gt;Figure 1: Sorting line with conveyor belt, camera, robot arm, and plastic sensor&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;safety-and-ease-of-use&quot;&gt;Safety and Ease Of Use&lt;/h3&gt;
+&lt;p&gt;The robot arm will feature torque limiting algorithms and emergency stop functions. Additionally, software for an easy setup will be provided. This will take care of camera calibration for the visual identification, as well as position teach-in for the sorting bin locations. In case of direct tossing into shredders, interface pins will be provided which tell the shredders that a new item is arriving.&lt;/p&gt;
+
+&lt;div class=&quot;container p-5&quot;&gt;&lt;/div&gt;
+&lt;h3 id=&quot;final-words-and-future-steps&quot;&gt;Final Words and Future Steps&lt;/h3&gt;
+&lt;p&gt;This sorting line is just a concept. But as soon as the work on the plastic-type sensor and the robot arm is completed, they will be incorporated into such kind of system. When reaching the five-second cycle time theoretically ~ 17280 items could be handled a day&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. Assuming the handling of 8-gram yogurt cups this would result in a daily material sorting capability of 138 kg.
+If you have any ideas for improvement or want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-in-touch&quot;&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;/en/contact.html&quot;&gt;Get in Touch&lt;/a&gt;&lt;/h2&gt;
+&lt;h6 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h6&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Assuming 24 hours of operation per day &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Armin</name></author><category term="Research" /><summary type="html">Introduction To maximize the productivity of small-scale plastic recycling workspaces, we designed an automated small-scale sorting facility. A graphical overview of this setup is displayed in Figure 1.</summary></entry><entry xml:lang="en"><title type="html">Robot Arm</title><link href="http://localhost:4000/en/projects/2021/01/06/robot-arm.html" rel="alternate" type="text/html" title="Robot Arm" /><published>2021-01-06T00:00:00+01:00</published><updated>2021-01-06T00:00:00+01:00</updated><id>http://localhost:4000/en/projects/2021/01/06/robot-arm</id><content type="html" xml:base="http://localhost:4000/en/projects/2021/01/06/robot-arm.html">&lt;h3 id=&quot;using-a-robot-arm-for-plastic-sorting&quot;&gt;Using a Robot Arm for plastic sorting&lt;/h3&gt;
+&lt;p&gt;There are many benefits to using a robot arm for plastic sorting. The modularity of the system in addition to the wide range of motion is the first that comes to mind. Additionally, it is a versatile solution that can adapt to many challenging and new tasks that might come with new packaging and waste stream types.&lt;/p&gt;
+
+&lt;figure class=&quot;image my-5&quot;&gt;
+    &lt;img src=&quot;/assets/img/content/robotLabeled_large.png&quot; class=&quot;img-fluid my-3&quot; alt=&quot;Figure 1: Robot overview sketch&quot; /&gt;
+    &lt;figcaption&gt;&lt;small&gt;Figure 1: Robot overview sketch&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h3 id=&quot;features&quot;&gt;Features&lt;/h3&gt;
+&lt;p&gt;The main features of the robot arm are it’s fully integrated closed-loop motor drivers as well as it’s single supply and signal interface design. Therefore it is very easy to integrate the robot into a sorting line. The Vertical Axis is integrated into the second link for more robust mechanics and easy mounting of the base.
+By removing all components from the first link, the robot can be easily shipped and assembled. Additionally, it is possible to adjust the length of the first link. This way a larger (or smaller) area of motion can be achieved. The mechanical design is designed for a payload of at least 500 grams. A graphical overview of the features is displayed in Figure 1.&lt;/p&gt;
+&lt;h3 id=&quot;manufacturing-and-expenses&quot;&gt;Manufacturing and Expenses&lt;/h3&gt;
+&lt;p&gt;Providing high-performance low-cost robotics is a huge challenge. If you want to achieve cycle times for individual plastic items below one second the mechanical design has to be robust and the electronic drives and motors have to be high performing. That’s why we decided to develop the drives and the matching software from scratch. This way a fully open-source solution without any restrictions can be provided.
+We plan on providing all necessary manufacturing files, CAD Models, and assembly instructions at no charge. Our target hardware price is 1000 euros. A pre-assembled kit might become available for ~ 2000 euros.&lt;/p&gt;
+&lt;h3 id=&quot;software&quot;&gt;Software&lt;/h3&gt;
+&lt;p&gt;The Robot will use our custom motion planning and control software, as well as a simulation environment&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;. All of this software will be available for download on our GitHub.&lt;/p&gt;
+
+&lt;div class=&quot;container p-5&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;final-words-and-planned-file-release&quot;&gt;Final Words and Planned File Release&lt;/h3&gt;
+&lt;p&gt;The targeted final file release is by end of Q3 2021. Currently, the custom stepper motor driver is tested and the mechanical protoype is assembled. The first results will be published by end of Q1 2021.
+If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-in-touch&quot;&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;/en/contact.html&quot;&gt;Get in Touch&lt;/a&gt;&lt;/h2&gt;
+
+&lt;h6 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h6&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Open Recycling - Simulating Robot Dynamics 2021 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Armin</name></author><category term="Projects" /><summary type="html">Using a Robot Arm for plastic sorting There are many benefits to using a robot arm for plastic sorting. The modularity of the system in addition to the wide range of motion is the first that comes to mind. Additionally, it is a versatile solution that can adapt to many challenging and new tasks that might come with new packaging and waste stream types. Figure 1: Robot overview sketch Features The main features of the robot arm are it’s fully integrated closed-loop motor drivers as well as it’s single supply and signal interface design. Therefore it is very easy to integrate the robot into a sorting line. The Vertical Axis is integrated into the second link for more robust mechanics and easy mounting of the base. By removing all components from the first link, the robot can be easily shipped and assembled. Additionally, it is possible to adjust the length of the first link. This way a larger (or smaller) area of motion can be achieved. The mechanical design is designed for a payload of at least 500 grams. A graphical overview of the features is displayed in Figure 1. Manufacturing and Expenses Providing high-performance low-cost robotics is a huge challenge. If you want to achieve cycle times for individual plastic items below one second the mechanical design has to be robust and the electronic drives and motors have to be high performing. That’s why we decided to develop the drives and the matching software from scratch. This way a fully open-source solution without any restrictions can be provided. We plan on providing all necessary manufacturing files, CAD Models, and assembly instructions at no charge. Our target hardware price is 1000 euros. A pre-assembled kit might become available for ~ 2000 euros. Software The Robot will use our custom motion planning and control software, as well as a simulation environment1. All of this software will be available for download on our GitHub. Open Recycling - Simulating Robot Dynamics 2021 &amp;#8617;</summary></entry><entry xml:lang="en"><title type="html">Plastic Type Sensor</title><link href="http://localhost:4000/en/projects/2021/01/06/plastic-type-sensor.html" rel="alternate" type="text/html" title="Plastic Type Sensor" /><published>2021-01-06T00:00:00+01:00</published><updated>2021-01-06T00:00:00+01:00</updated><id>http://localhost:4000/en/projects/2021/01/06/plastic-type-sensor</id><content type="html" xml:base="http://localhost:4000/en/projects/2021/01/06/plastic-type-sensor.html">&lt;h3 id=&quot;introduction&quot;&gt;Introduction&lt;/h3&gt;
+&lt;p&gt;After gaining experience with plastic-type sensing based on near-infrared spectroscopy in the reremeter&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt; project, we decided to take it a step further. To identify plastics with greater than human accuracy and avoid unrecognized wrong detections in automated sorting environments we decided on a NIR spectrum analysis with greater resolution. Therefore we intend on using a MEMS light filter in combination with a broadband light source. A graphical overview of this setup is displayed in Figure 1.&lt;/p&gt;
+
+&lt;figure class=&quot;image my-5&quot;&gt;
+    &lt;img src=&quot;/assets/img/content/sensorLabeled_large.png&quot; class=&quot;img-fluid my-3&quot; alt=&quot;Figure 1: NIR plastic-type Sensor overview sketch&quot; /&gt;
+    &lt;figcaption&gt;&lt;small&gt;Figure 1: NIR plastic-type Sensor overview sketch&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;h3 id=&quot;technical-explanation&quot;&gt;Technical Explanation&lt;/h3&gt;
+&lt;p&gt;The plastic-type sensor uses a light bulb in combination with a MEMS NIR filter to create high-resolution spectra in the range of 1550 to 1850 nanometers. In this region, all majorly used plastic-types show unique spectra.
+These spectra will be transferred to a computer running the identification software. This software will then use the characteristic features of each plastic-type for identification.
+As we capture a 1 nm resolution spectrum the scanning and identification time will be at 1-2 seconds.&lt;/p&gt;
+
+&lt;h3 id=&quot;manufacturing-and-expenses&quot;&gt;Manufacturing and Expenses&lt;/h3&gt;
+&lt;p&gt;This sensor will be a highly integrated device. This makes it hard to assemble by hand. Additionally, the manufacturing steps have to include sensor calibration and parameter changes for each individual unit. Those steps are hard to automate and require certain know-how.
+The MEMS sensor will be sourced from a Japanese manufacturer. Therefore this project is dependent on part availability.
+All other parts of this project will be available open-source. We plan on providing all necessary manufacturing files, CAD Models, and assembly instructions at no charge. Our target hardware price is 300 euros. A pre-assembled kit with sensor calibration might become available for ~ 700 euros.&lt;/p&gt;
+
+&lt;h3 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;This version of the plastic-type sensor will be able to identify plastics based on features that are hidden from human eyesight or touch. We still intend on using an additional visual classification model for the basic identification of recyclables and the general material quality. This way e.g. good quality, high reflectivity items could be scanned at a lower resolution. Using this approach identification times could be reduced by a factor of 10.&lt;/p&gt;
+
+&lt;div class=&quot;container p-5&quot;&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;final-words-and-planned-file-release&quot;&gt;Final Words and Planned File Release&lt;/h3&gt;
+&lt;p&gt;The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 2021.
+If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below.&lt;/p&gt;
+
+&lt;h2 id=&quot;get-in-touch&quot;&gt;&lt;a class=&quot;btn btn-outline-primary my-sm-3&quot; href=&quot;/en/contact.html&quot;&gt;Get in Touch&lt;/a&gt;&lt;/h2&gt;
+&lt;h6 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h6&gt;
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;reremeter - Open Source discrete NIR plastic-type sensor released by RealRecycling in 2019 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Armin</name></author><category term="Projects" /><summary type="html">Introduction After gaining experience with plastic-type sensing based on near-infrared spectroscopy in the reremeter1 project, we decided to take it a step further. To identify plastics with greater than human accuracy and avoid unrecognized wrong detections in automated sorting environments we decided on a NIR spectrum analysis with greater resolution. Therefore we intend on using a MEMS light filter in combination with a broadband light source. A graphical overview of this setup is displayed in Figure 1. Figure 1: NIR plastic-type Sensor overview sketch Technical Explanation The plastic-type sensor uses a light bulb in combination with a MEMS NIR filter to create high-resolution spectra in the range of 1550 to 1850 nanometers. In this region, all majorly used plastic-types show unique spectra. These spectra will be transferred to a computer running the identification software. This software will then use the characteristic features of each plastic-type for identification. As we capture a 1 nm resolution spectrum the scanning and identification time will be at 1-2 seconds. Manufacturing and Expenses This sensor will be a highly integrated device. This makes it hard to assemble by hand. Additionally, the manufacturing steps have to include sensor calibration and parameter changes for each individual unit. Those steps are hard to automate and require certain know-how. The MEMS sensor will be sourced from a Japanese manufacturer. Therefore this project is dependent on part availability. All other parts of this project will be available open-source. We plan on providing all necessary manufacturing files, CAD Models, and assembly instructions at no charge. Our target hardware price is 300 euros. A pre-assembled kit with sensor calibration might become available for ~ 700 euros. Conclusion This version of the plastic-type sensor will be able to identify plastics based on features that are hidden from human eyesight or touch. We still intend on using an additional visual classification model for the basic identification of recyclables and the general material quality. This way e.g. good quality, high reflectivity items could be scanned at a lower resolution. Using this approach identification times could be reduced by a factor of 10. Final Words and Planned File Release The targeted final file release is by end of Q3 2021. Currently, Armin is testing the electronics for the MEMS filter control. The MEMS filter itself should arrive within the next 4-6 weeks. The first results should therefore be expected by end of Q1 2021. If you want to help with software or hardware development feel free to contact us via contact@openrecycling.com or using the contact form linked below. Get in Touch Footnotes reremeter - Open Source discrete NIR plastic-type sensor released by RealRecycling in 2019 &amp;#8617;</summary></entry><entry xml:lang="en"><title type="html">Simulating Robot Dynamics</title><link href="http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html" rel="alternate" type="text/html" title="Simulating Robot Dynamics" /><published>2021-01-03T00:00:00+01:00</published><updated>2021-01-03T00:00:00+01:00</updated><id>http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics</id><content type="html" xml:base="http://localhost:4000/en/projects/2021/01/03/simulating-robot-dynamics.html">&lt;h2 id=&quot;software-architecture&quot;&gt;Software Architecture&lt;/h2&gt;
+&lt;p&gt;The software architecture of the digital robot arm twin can be used for digital testing of movement range and speed. Also, collisions can be checked in advance. Currently, only the SCARA kinematic robot arm is modeled and visualized. Later on, the entire plastic sorting and handling system could be modeled the same way.&lt;/p&gt;
+
+&lt;h3 id=&quot;simulation&quot;&gt;Simulation&lt;/h3&gt;
+&lt;p&gt;For maximum software portability, the simulation is developed in python. This way it can be easily run on a Linux compute module in the real robot arm as well as on a high performing simulation computer. By incorporating this aspect multiple robots can be run in parallel on different virtual machines. Training machine learning models for path planning or gripping positions can be achieved this way.
+The overall robot software consists of a waypoint manager, the robot arm equivalent, the mathematical models including e.g. inverse kinematics and a dynamic model. Additionally, the position and speed controllers are implemented as PID control algorithms.
+Inverse kinematics models help to determine the individual joint angles and extensions based on a given end-effector position and rotation.
+The dynamic model provides a description of the relationship between the joint actuator torques and the motion of the structure.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;
+For visualization access, the robot arm position values are written to a CSV file.&lt;/p&gt;
+
+&lt;h3 id=&quot;visualization&quot;&gt;Visualization&lt;/h3&gt;
+&lt;p&gt;The visualization is implemented in javascript and can be run using your preferred browser. It uses p5.js which is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else. &lt;sup id=&quot;fnref:2&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:2&quot; class=&quot;footnote&quot;&gt;2&lt;/a&gt;&lt;/sup&gt;
+Joint angles of the robot arm are acquired from the CSV file every update cycle. Then the values are plotted to the 3D visualization frame as well as the data graphs.&lt;/p&gt;
+
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion&lt;/h2&gt;
+&lt;p&gt;The simulation and visualization were tested using a 2,7 GHz Quad-Core Intel Core i7 without a graphics card. With this setup, a visualization frame rate of 20 fps was achieved. The simulation runs at 1 ms period time of the software loop. So far no performance tests have been executed on a real-time hardware platform. 
+The result can be seen in Figure 1.&lt;/p&gt;
+
+&lt;figure class=&quot;image my-5&quot;&gt;
+    &lt;img src=&quot;/assets/img/content/roboGif.gif&quot; class=&quot;img-fluid my-3&quot; alt=&quot;Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps.&quot; /&gt;
+    &lt;figcaption&gt;&lt;small&gt;Figure 1: Visualization of PTP and LIN moves. GIF exported with 5 fps.&lt;/small&gt;&lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;hr /&gt;
+
+&lt;h6 id=&quot;footnotes&quot;&gt;Footnotes&lt;/h6&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G. “Robotics: Modelling, Planning and Control” Springer 2009 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+    &lt;li id=&quot;fn:2&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;p5js.org Homepage &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>Armin</name></author><category term="Projects" /><summary type="html">Software Architecture The software architecture of the digital robot arm twin can be used for digital testing of movement range and speed. Also, collisions can be checked in advance. Currently, only the SCARA kinematic robot arm is modeled and visualized. Later on, the entire plastic sorting and handling system could be modeled the same way. Simulation For maximum software portability, the simulation is developed in python. This way it can be easily run on a Linux compute module in the real robot arm as well as on a high performing simulation computer. By incorporating this aspect multiple robots can be run in parallel on different virtual machines. Training machine learning models for path planning or gripping positions can be achieved this way. The overall robot software consists of a waypoint manager, the robot arm equivalent, the mathematical models including e.g. inverse kinematics and a dynamic model. Additionally, the position and speed controllers are implemented as PID control algorithms. Inverse kinematics models help to determine the individual joint angles and extensions based on a given end-effector position and rotation. The dynamic model provides a description of the relationship between the joint actuator torques and the motion of the structure.1 For visualization access, the robot arm position values are written to a CSV file. Visualization The visualization is implemented in javascript and can be run using your preferred browser. It uses p5.js which is a JavaScript library for creative coding, with a focus on making coding accessible and inclusive for artists, designers, educators, beginners, and anyone else. 2 Joint angles of the robot arm are acquired from the CSV file every update cycle. Then the values are plotted to the 3D visualization frame as well as the data graphs. Conclusion The simulation and visualization were tested using a 2,7 GHz Quad-Core Intel Core i7 without a graphics card. With this setup, a visualization frame rate of 20 fps was achieved. The simulation runs at 1 ms period time of the software loop. So far no performance tests have been executed on a real-time hardware platform. The result can be seen in Figure 1. Siciliano, B., Sciavicco, L., Villani, L., Oriolo, G. “Robotics: Modelling, Planning and Control” Springer 2009 &amp;#8617; p5js.org Homepage &amp;#8617;</summary></entry><entry xml:lang="en"><title type="html">Introducing Open Recycling</title><link href="http://localhost:4000/en/announcements/2021/01/01/introducing-open-recycling.html" rel="alternate" type="text/html" title="Introducing Open Recycling" /><published>2021-01-01T00:00:00+01:00</published><updated>2021-01-01T00:00:00+01:00</updated><id>http://localhost:4000/en/announcements/2021/01/01/introducing-open-recycling</id><content type="html" xml:base="http://localhost:4000/en/announcements/2021/01/01/introducing-open-recycling.html">&lt;p&gt;Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to acheive this by making material based recycling accessible and financially sustainable. As soon as this challenge is completed there should be no need for future generations to drive oil demand based on the worlds plastic usage.&lt;br /&gt;
+By providing our research and technology for free, we want to distribute it in a way it benefits communities around the world.
+At the moment we are focused on developing and testing an automated sorting and handling facility for municipal plastic waste items.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;background&quot;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;Waste management and recycling have always been a challenging task. Within the past 50 years, popular belief about plastic recycling changed from it being a moral compensation for consumers to a necessary step to stop the destruction of many ecosystems. &lt;br /&gt;&lt;br /&gt;
+With the advance of technological capabilities, first world countries started recycling plastics in an industrial and fully automated manner. These capabilities are often not given to poorer countries and communities. Additionally, the export of plastic waste to poor countries is still a business concept, which enables rich countries to increase their plastic consumption without having to deal with the consequences.
+Seeing initiatives like precious plastic changing the mentality of consumers and designers within the past few years is great. Plastic is a precious resource that has improved many areas of human life. But handling its residue properly is a problem humanity struggled with in the past.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;future-plans&quot;&gt;Future Plans&lt;/h2&gt;
+
+&lt;p&gt;Recycling systems today have impressive but limited capabilities. It seems that we’ll keep improving them to a point where they will be able to sort and handle all different types and forms of post-consumer plastic items.
+But based on the History of developments, it’s important to come up with solutions that are accessible to every community on this planet. And at the same time producers of plastic items have to be limited and held accountable for the mess they create.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;open-recycling&quot;&gt;Open Recycling&lt;/h2&gt;
+
+&lt;p&gt;It’s hard to predict how environmental sustainability on this planet will evolve. When it comes into reach of a net-zero carbon footprint and environmental protectionism, it’ll be important to have recycling systems deployed all over our planet.&lt;/p&gt;
+
+&lt;p&gt;We’re hoping to grow Open Recycling into an institution that is capable of fulfilling this task.&lt;/p&gt;
+
+&lt;p&gt;As a non-profit, our aim is to build value for everyone rather than shareholders. Researchers will be strongly encouraged to publish their work, whether as papers, blog posts, or code, and our patents (if any) will be shared with the world. We’ll freely collaborate with others across many institutions and expect to work with companies to research and deploy new technologies.&lt;sup id=&quot;fnref:1&quot; role=&quot;doc-noteref&quot;&gt;&lt;a href=&quot;#fn:1&quot; class=&quot;footnote&quot;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+
+&lt;p&gt;Open Recycling is a project started by Armin Straller the creator of the open-source plastic sensor called reremeter.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;footnotes&quot; role=&quot;doc-endnotes&quot;&gt;
+  &lt;ol&gt;
+    &lt;li id=&quot;fn:1&quot; role=&quot;doc-endnote&quot;&gt;
+      &lt;p&gt;OpenAI 2020 &lt;a href=&quot;#fnref:1&quot; class=&quot;reversefootnote&quot; role=&quot;doc-backlink&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+    &lt;/li&gt;
+  &lt;/ol&gt;
+&lt;/div&gt;</content><author><name>OpenRecycling</name></author><category term="Announcements" /><summary type="html">Open Recycling is a non-profit recycling development and research project. Our goal is to increase awareness about plastics being a valuable resource. We want to acheive this by making material based recycling accessible and financially sustainable. As soon as this challenge is completed there should be no need for future generations to drive oil demand based on the worlds plastic usage. By providing our research and technology for free, we want to distribute it in a way it benefits communities around the world. At the moment we are focused on developing and testing an automated sorting and handling facility for municipal plastic waste items. Background Waste management and recycling have always been a challenging task. Within the past 50 years, popular belief about plastic recycling changed from it being a moral compensation for consumers to a necessary step to stop the destruction of many ecosystems. With the advance of technological capabilities, first world countries started recycling plastics in an industrial and fully automated manner. These capabilities are often not given to poorer countries and communities. Additionally, the export of plastic waste to poor countries is still a business concept, which enables rich countries to increase their plastic consumption without having to deal with the consequences. Seeing initiatives like precious plastic changing the mentality of consumers and designers within the past few years is great. Plastic is a precious resource that has improved many areas of human life. But handling its residue properly is a problem humanity struggled with in the past. Future Plans Recycling systems today have impressive but limited capabilities. It seems that we’ll keep improving them to a point where they will be able to sort and handle all different types and forms of post-consumer plastic items. But based on the History of developments, it’s important to come up with solutions that are accessible to every community on this planet. And at the same time producers of plastic items have to be limited and held accountable for the mess they create. Open Recycling It’s hard to predict how environmental sustainability on this planet will evolve. When it comes into reach of a net-zero carbon footprint and environmental protectionism, it’ll be important to have recycling systems deployed all over our planet. We’re hoping to grow Open Recycling into an institution that is capable of fulfilling this task. As a non-profit, our aim is to build value for everyone rather than shareholders. Researchers will be strongly encouraged to publish their work, whether as papers, blog posts, or code, and our patents (if any) will be shared with the world. We’ll freely collaborate with others across many institutions and expect to work with companies to research and deploy new technologies.1 Open Recycling is a project started by Armin Straller the creator of the open-source plastic sensor called reremeter. OpenAI 2020 &amp;#8617;</summary></entry></feed>

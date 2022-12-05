@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM Plex Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body { 
+    padding-top: 0px;
+    margin: 0px;
+}
+
+h1{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+}
+
+h2{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+}
+
+p, a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    color: black;
+}
+
+b {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.display-4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-custom {
+    background-color: #ffffff;
+    width: 100vw;
+}
+
+.navbar-brand, .nav-link {font-family: 'Nunito', sans-serif;font-weight: 400;font-size: 16px;}
+.dropdown-item {font-family: 'Nunito', sans-serif;font-weight: 400;}
+
+.navbar-menu-header {
+    background-color:#ffffff;
+    display: block;
+}
+
+.nav-item {
+    margin: 8px;
+}
+
+.button-submit {
+    border-radius: 20px;
+    line-height: 1;
+    padding-top: 10px;
+    padding-bottom: 12px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 16px;
+    height:40px;
+}
+
+.no-border{
+    border:none;
+  }
+
+.footer-button{
+    font-size: 18px;
+    width: 48px;
+    border:none;
+    margin-right: 16px;
+}
+
+.footer-button:focus,.footer-button:active {
+    outline: none !important;
+    box-shadow: none;
+ }
+
+.nav-link-blog {
+    font-size: 32px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+}
+
+.img-thumbnail {
+    border: 0 none;
+    box-shadow: none;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.front-nav {
+    margin-right:4px;
+
+    margin-bottom: 0.1em;
+}

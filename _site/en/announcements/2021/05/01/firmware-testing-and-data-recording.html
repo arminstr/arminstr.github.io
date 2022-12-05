@@ -1,0 +1,212 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/assets/css/global.css">
+    
+
+    <!-- Title and Icon -->
+    <title>Posts - Firmware Testing And Data Recording</title>
+    <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" />
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Firmware Testing And Data Recording</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Firmware Testing And Data Recording" />
+<meta name="author" content="Armin" />
+<meta property="og:locale" content="en" />
+<meta name="description" content="News regarding the Plastic Type Sensor Sadly the dataset is not ready at this point. But it is in the making! The first measurement results are displayed below." />
+<meta property="og:description" content="News regarding the Plastic Type Sensor Sadly the dataset is not ready at this point. But it is in the making! The first measurement results are displayed below." />
+<link rel="canonical" href="http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html" />
+<meta property="og:url" content="http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-05-01T00:00:00+02:00" />
+<script type="application/ld+json">
+{"datePublished":"2021-05-01T00:00:00+02:00","headline":"Firmware Testing And Data Recording","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html"},"url":"http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html","author":{"@type":"Person","name":"Armin"},"description":"News regarding the Plastic Type Sensor Sadly the dataset is not ready at this point. But it is in the making! The first measurement results are displayed below.","@type":"BlogPosting","dateModified":"2021-05-01T00:00:00+02:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <!-- Icon Stuff -->
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+
+<!-- SEO twitter card -->
+<meta property="og:type" content="" />
+<meta name="twitter:site" content="http://localhost:4000/en/announcements/2021/05/01/firmware-testing-and-data-recording.html" />
+<meta name="twitter:card" content="" />
+<meta name="twitter:title" content="Firmware Testing And Data Recording" />
+<meta name="twitter:image" content="http://localhost:4000" />
+<meta name="twitter:description" content="" />
+
+  </head>
+  <body>
+    <header>
+    <!-- Main Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+      <div class="navbar-header navbar-left pull-left">
+        <a class="navbar-brand" href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" height="32" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+      </div>
+      <div class="navbar-header navbar-right pull-right">
+        
+        
+        
+        
+        
+        
+        
+        
+        <ul class="nav navbar-nav navbar-right flex-row">
+          <li class="nav-item">
+            <a class="nav-link " href="/en/projects/overview.html">PROJECTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link    active" href="/en/blog/all.html">BLOG</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="/en/about.html">ABOUT</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</nav>
+    </header>
+
+    <div class="home-intro position-relative overflow-hidden p-3 p-md-3 m-md-1 text-center">
+        <div class="col-10 my-5 mx-sm-5">
+            
+                <img src="/assets/img/content/sensor-prototype.jpeg" class="img-fluid" alt="Responsive image">
+            
+
+        </div>
+    </div>
+
+    <main role="main" class="container">
+        <div class="col-10 mx-sm-5 blog-main my-5">
+            <div class="blog-post">
+                
+                <h1 class="blog-post-title">Firmware Testing And Data Recording</h1>
+                <small class="blog-post-meta text-muted my-1">May 01, 2021 - 3 minute read</small>
+                <hr>
+                <h2 id="news-regarding-the-plastic-type-sensor">News regarding the Plastic Type Sensor</h2>
+
+<p>Sadly the dataset is not ready at this point. But it is in the making!
+The first measurement results are displayed below.</p>
+
+<figure class="image my-5">
+    <img src="/assets/img/content/sample_data_first.png" class="img-fluid my-3" alt="Figure 1: Reflectivity scans for four different samples of PP." />
+    <figcaption><small>Figure 1: Reflectivity scans for four different samples of PP.</small></figcaption>
+</figure>
+
+<p>For testing purposes a case for the prototype hardware was printed. As an interface to the computer an Arduino is used.</p>
+
+<p>The data dispalyed in Figure 1 is a reflectivity measurement for four different white polypropylene plastic samples. Additionally, a reference measurement without a sample is subtracted from the original measurement. Then a minmax algorithm is applied and the data gets filtered. You can check out the data files on github and run the evaluation script by yourself.</p>
+
+<p>Help with data processing is always welcome! Feel free to contact us via contact@openrecycling.com or using the contact form linked below.</p>
+
+<p><a class="btn btn-outline-primary my-sm-3" href="/en/contact.html">Get in Touch</a></p>
+ 
+            </div>
+            
+        </div>
+    </main>
+    
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
+<footer class="navbar navbar-expand-lg navbar-light navbar-custom navbar-site-header my-sm-5">
+    <div class="container mx-sm-5">
+    <div class="container row">
+      <div class="col-md-3 my-2">
+        <a href="/en/index.html">
+          <img src="/assets/img/favicon/logo_black.png" width="48" class="d-inline-block align-top" alt="logo" loading="lazy">
+        </a>
+        <small class="text-muted mx-1"><p id="copyright__year">2020</p></small>
+        <!--ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul-->
+      </div>
+      <div class="col-sm-4 my-2">
+          <div class="btn-group mr-2" role="group" aria-label="Follow">
+            <!--button type="button" class="btn footer-button"><a href="https://www.linkedin.com/in/armin-straller" target="_blank" style="color:black;"><i class="fa fa-linkedin"></i></a></button-->
+            <button type="button" class="btn footer-button"><a href="https://www.instagram.com/openrecycling" target="_blank" style="color:black;"><i class="fa fa-instagram"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://www.youtube.com/channel/UC7T99mtsuLUtVicwKSb20lg" target="_blank" style="color:black;"><i class="fa fa-youtube-play"></i></a></button>
+            <button type="button" class="btn footer-button"><a href="https://github.com/arminstr" target="_blank" style="color:black;"><i class="fa fa-github"></i></a></button>
+          </div>
+      </div>
+      <div class="col-md-3 my-2">
+        <ul class="list-unstyled text-small my-3">
+          <li><a class="text-dark" href="/en/contact.html"><h5>Contact Us</h5></a></li>
+          <li><a class="text-muted" href="/en/data-privacy.html">Privacy Policy</a></li>
+          <li><a class="text-muted" href="/en/imprint.html">Imprint</a></li>
+        </ul>
+      </div>
+      <!--div class="col-sm my-2">
+        <h5>Language</h5>
+        
+        <ul class="list-unstyled text-small">
+          
+          
+              
+              
+              <li><a class="text-dark"  href="/de//en/announcements/2021/05/01/firmware-testing-and-data-recording.html">de</a></li>
+              
+          
+              
+              
+              <li><a class="text-dark"  href="/en//en/announcements/2021/05/01/firmware-testing-and-data-recording.html">en</a></li>
+              
+          
+        </ul>
+      </div-->
+    </div>
+    </div>
+</footer>
+
+<script>
+  var d = new Date().getFullYear();
+  document.getElementById("copyright__year").innerHTML = '© 2019 - ' + d.toString();
+</script>
+
+    <!-- Last elemnt has to be cooki-banner -->
+    <!-- Modal -->
+<div class="modal cookie-container fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header no-border mx-3">
+            <h5 class="modal-title" id="staticBackdropLabel">We respect your privacy.</h5>
+            <button type="button" class="close cookie-conainer-close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mx-3">
+            <small>This is why we do only use Cookies and Trackers that improve your experience on our website. <a href="/en/data-privacy.html">More Info.</a></small>
+          </div>
+          <div class="modal-footer no-border d-flex justify-content-between">
+            <button type="button" class="btn cookie-button-decline text-left" data-dismiss="modal">Technically necessary cookies only</button>
+            <button type="button" class="btn cookie-button-accept btn-primary mx-3">Accept all</button>
+          </div>
+        </div>
+    </div>
+</div>
+
+<script src="/assets/js/cookies.js"></script>
+  
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
